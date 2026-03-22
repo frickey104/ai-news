@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   title: "AI ニュースまとめ",
-  base: "/cc-company/",
+  base: "/ai-news/",
   description: "生成AI・テクノロジーの最新情報を毎週自動収集してお届け",
   lang: "ja",
   cleanUrls: true,
