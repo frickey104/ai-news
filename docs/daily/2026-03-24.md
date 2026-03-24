@@ -88,15 +88,15 @@ date: 2026-03-24
 <div class="news-grid">
 <div class="news-item hn">
 <h3><a href="https://twitter.com/anemll/status/2035901335984611412" target="_blank" rel="noopener">iPhone 17 Pro Demonstrated Running a 400B LLM</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 642 pts · <a href="https://news.ycombinator.com/item?id=47490070">285 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 644 pts · <a href="https://news.ycombinator.com/item?id=47490070">285 comments</a></div>
 </div>
 <div class="news-item hn">
 <h3><a href="https://blog.mozilla.ai/cq-stack-overflow-for-agents/" target="_blank" rel="noopener">Show HN: Cq – Stack Overflow for AI coding agents</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 162 pts · <a href="https://news.ycombinator.com/item?id=47491466">63 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 164 pts · <a href="https://news.ycombinator.com/item?id=47491466">63 comments</a></div>
 </div>
 <div class="news-item hn">
 <h3><a href="https://cc.storyfox.cz" target="_blank" rel="noopener">Claude Code Cheat Sheet</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 458 pts · <a href="https://news.ycombinator.com/item?id=47495527">140 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 459 pts · <a href="https://news.ycombinator.com/item?id=47495527">145 comments</a></div>
 </div>
 <div class="news-item hn">
 <h3><a href="https://socket.dev/blog/trivy-under-attack-again-github-actions-compromise" target="_blank" rel="noopener">Trivy under attack again: Widespread GitHub Actions tag compromise secrets</a></h3>
@@ -104,12 +104,12 @@ date: 2026-03-24
 </div>
 <div class="news-item hn">
 <h3><a href="https://www.itsthatlady.dev/blog/building-an-ai-receptionist-for-my-brother/" target="_blank" rel="noopener">I built an AI receptionist for a mechanic shop</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 298 pts · <a href="https://news.ycombinator.com/item?id=47487536">298 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 299 pts · <a href="https://news.ycombinator.com/item?id=47487536">302 comments</a></div>
 </div>
 </div>
 
 <div class="page-footer">
-Last updated: 2026-03-24 21:27 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
+Last updated: 2026-03-24 21:35 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
 </div>
 
 </div>
