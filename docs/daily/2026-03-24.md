@@ -1,6 +1,6 @@
 ---
 title: "AI NEWS | 2026-03-24"
-description: "2026年3月24日 の生成AI最新ニュース (15件)"
+description: "2026年3月24日 の生成AI最新ニュース (21件)"
 date: 2026-03-24
 ---
 
@@ -10,7 +10,7 @@ date: 2026-03-24
 <h1 class="page-title">AI NEWS</h1>
 <p class="page-date">2026年3月24日</p>
 <div class="page-stats">
-<span class="stat">15 articles</span>
+<span class="stat">21 articles</span>
 <span class="stat">Updated daily 6:00 AM JST</span>
 </div></div>
 
@@ -108,8 +108,41 @@ date: 2026-03-24
 </div>
 </div>
 
+<p class="section-label">TRENDING VIDEOS</p>
+<div class="news-grid">
+<div class="news-item youtube">
+<h3><a href="https://www.youtube.com/watch?v=eYUYdpG4UT8" target="_blank" rel="noopener">The Rise and Reckoning of AI | 2026 Isaac Asimov Memorial Debate</a></h3>
+<p>Artificial intelligence is reshaping every dimension of modern life, from scientific discovery and creative expression to national ...</p>
+<div class="card-meta"><span class="source-badge">American Museum of Natural History</span> · <span class="view-count">74K views</span> · 2026-03-21</div>
+</div>
+<div class="news-item youtube">
+<h3><a href="https://www.youtube.com/watch?v=DGd_NUqeHnw" target="_blank" rel="noopener">When Steve Jobs Predicted AI Before Everyone Else (2010)</a></h3>
+<p>In 2010, Steve Jobs made a bold move—acquiring Siri for $200 million before AI became mainstream. At a time when most ...</p>
+<div class="card-meta"><span class="source-badge">The Brave Coders</span> · <span class="view-count">39K views</span> · 2026-03-23</div>
+</div>
+<div class="news-item youtube">
+<h3><a href="https://www.youtube.com/watch?v=DVQ44q-X84g" target="_blank" rel="noopener">​Ahorra en el súper con este truco de Inteligencia Artificial 🛒💸 #IA #Ahorro #Trucos</a></h3>
+<p>Cansado de gastar de más en el súper? ¡Atento a este truco! ​Solo necesitas tu lista y la inteligencia artificial. Sube una ...</p>
+<div class="card-meta"><span class="source-badge">Toni Reboredo • Fast Byte Informática</span> · <span class="view-count">37K views</span> · 2026-03-20</div>
+</div>
+<div class="news-item youtube">
+<h3><a href="https://www.youtube.com/watch?v=_1Bjt0sWV8M" target="_blank" rel="noopener">3by3 cube solve by using Ai 😱 l but biggest size 9cm l #cube #shortclips #video</a></h3>
+<p>3by3 cube solve by using Ai l but biggest size 9cm l #cube #shortclips #video --- High-Ranking SEO Keywords (English) 3x3 ...</p>
+<div class="card-meta"><span class="source-badge">rabiks cube tricks 2511</span> · <span class="view-count">35K views</span> · 2026-03-18</div>
+</div>
+<div class="news-item youtube">
+<h3><a href="https://www.youtube.com/watch?v=92UOlDyHv_c" target="_blank" rel="noopener">오픈AI·앤트로픽·구글, 미국 AI 기업들의 전쟁 #교양이를부탁해</a></h3>
+<p>[비즈니스 문의] 교양이를 부탁해, 출연•협찬•콘텐츠 문의: sbs_explained@sbs.co.kr 들을수록 똑똑해지는 지식뉴스, 교양이를 부탁해 ...</p>
+<div class="card-meta"><span class="source-badge">교양이를 부탁해</span> · <span class="view-count">30K views</span> · 2026-03-20</div>
+</div>
+<div class="news-item youtube">
+<h3><a href="https://www.youtube.com/watch?v=BvpPGlvInpA" target="_blank" rel="noopener">This AI Predicts the Future (And It’s Going Viral) #ai #artificialintelligence</a></h3>
+<div class="card-meta"><span class="source-badge">Hasan Toor</span> · <span class="view-count">27K views</span> · 2026-03-19</div>
+</div>
+</div>
+
 <div class="page-footer">
-Last updated: 2026-03-24 21:35 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
+Last updated: 2026-03-24 21:37 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
 </div>
 
 </div>
