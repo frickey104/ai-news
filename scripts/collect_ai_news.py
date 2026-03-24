@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 AI ニュース収集スクリプト
-毎週実行して最新のAI関連情報をMarkdownに変換する
+毎日実行して最新のAI関連情報をMarkdownに変換する
 
 情報源:
   - RSS: TechCrunch, VentureBeat, The Verge
@@ -26,16 +26,14 @@ import requests
 JST = timezone(timedelta(hours=9))
 NOW = datetime.now(JST)
 YEAR = NOW.year
-WEEK_NUM = NOW.isocalendar()[1]
 DATE_STR = NOW.strftime("%Y-%m-%d")
-WEEK_ID = f"{YEAR}-W{WEEK_NUM:02d}"
-PERIOD_START = (NOW - timedelta(days=7)).strftime("%Y年%-m月%-d日")
+PERIOD_START = (NOW - timedelta(days=1)).strftime("%Y年%-m月%-d日")
 PERIOD_END = NOW.strftime("%Y年%-m月%-d日")
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.dirname(SCRIPT_DIR)
 DOCS_DIR = os.path.join(REPO_ROOT, "docs")
-WEEKLY_DIR = os.path.join(DOCS_DIR, "weekly")
+DAILY_DIR = os.path.join(DOCS_DIR, "daily")
 BASE_PATH = ""  # VitePressのbaseが/cc-company/のため内部リンクはルート相対でOK
 
 HEADERS = {
@@ -136,7 +134,7 @@ def fetch_reddit() -> list:
     items = []
     for r in REDDIT_SOURCES:
         try:
-            url = f"https://www.reddit.com/r/{r['sub']}/top.json?limit={r['limit']}&t=week"
+            url = f"https://www.reddit.com/r/{r['sub']}/top.json?limit={r['limit']}&t=day"
             resp = requests.get(url, headers=HEADERS, timeout=10)
             if resp.status_code != 200:
                 print(f"  Reddit [r/{r['sub']}] ステータス: {resp.status_code}")
@@ -249,7 +247,7 @@ def generate_markdown(rss_items, reddit_items, hn_items, youtube_items) -> str:
     total = len(rss_items) + len(reddit_items) + len(hn_items) + len(youtube_items)
     lines = [
         "---",
-        f'title: "AI ニュースまとめ | {YEAR}年第{WEEK_NUM}週"',
+        f'title: "AI ニュースまとめ | {DATE_STR}"',
         f'description: "{PERIOD_START} 〜 {PERIOD_END} の生成AI最新情報 ({total}件)"',
         f"date: {DATE_STR}",
         "---",
@@ -258,7 +256,7 @@ def generate_markdown(rss_items, reddit_items, hn_items, youtube_items) -> str:
         "",
         "# AI ニュースまとめ",
         "",
-        f'<p class="news-period">{YEAR}年 第{WEEK_NUM}週 &nbsp;|&nbsp; {PERIOD_START} 〜 {PERIOD_END}</p>',
+        f'<p class="news-period">{PERIOD_START} 〜 {PERIOD_END}</p>',
         "",
         "</div>",
         "",
@@ -361,15 +359,15 @@ def generate_markdown(rss_items, reddit_items, hn_items, youtube_items) -> str:
 # ===== アーカイブ更新 =====
 
 def update_archive(title: str):
-    os.makedirs(WEEKLY_DIR, exist_ok=True)
-    index_path = os.path.join(WEEKLY_DIR, "index.md")
-    entry_line = f"- [{title}]({BASE_PATH}/weekly/{WEEK_ID})"
+    os.makedirs(DAILY_DIR, exist_ok=True)
+    index_path = os.path.join(DAILY_DIR, "index.md")
+    entry_line = f"- [{title}]({BASE_PATH}/daily/{DATE_STR})"
 
     if os.path.exists(index_path):
         with open(index_path, "r", encoding="utf-8") as f:
             content = f.read()
-        if WEEK_ID in content:
-            return  # 今週分は既に追記済み
+        if DATE_STR in content:
+            return  # 今日分は既に追記済み
         lines = content.split("\n")
         insert_idx = None
         for i, line in enumerate(lines):
@@ -398,7 +396,7 @@ def update_archive(title: str):
 # ===== メイン =====
 
 def main():
-    print(f"=== AI ニュース収集開始 {WEEK_ID} ({DATE_STR}) ===")
+    print(f"=== AI ニュース収集開始 ({DATE_STR}) ===")
 
     print("\n[RSS]")
     rss_items = fetch_rss()
@@ -417,14 +415,14 @@ def main():
 
     # Markdown 生成
     content = generate_markdown(rss_items, reddit_items, hn_items, youtube_items)
-    title = f"AI ニュースまとめ | {YEAR}年第{WEEK_NUM}週"
+    title = f"AI ニュースまとめ | {DATE_STR}"
 
-    # 週次ファイル保存
-    os.makedirs(WEEKLY_DIR, exist_ok=True)
-    weekly_path = os.path.join(WEEKLY_DIR, f"{WEEK_ID}.md")
-    with open(weekly_path, "w", encoding="utf-8") as f:
+    # 日次ファイル保存
+    os.makedirs(DAILY_DIR, exist_ok=True)
+    daily_path = os.path.join(DAILY_DIR, f"{DATE_STR}.md")
+    with open(daily_path, "w", encoding="utf-8") as f:
         f.write(content)
-    print(f"\n週次ファイル: {weekly_path}")
+    print(f"\n日次ファイル: {daily_path}")
 
     # ホームページ更新（最新号を常にトップに表示）
     home_path = os.path.join(DOCS_DIR, "index.md")
