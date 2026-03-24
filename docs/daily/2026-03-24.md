@@ -96,7 +96,7 @@ date: 2026-03-24
 </div>
 <div class="news-item hn">
 <h3><a href="https://cc.storyfox.cz" target="_blank" rel="noopener">Claude Code Cheat Sheet</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 457 pts · <a href="https://news.ycombinator.com/item?id=47495527">140 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 458 pts · <a href="https://news.ycombinator.com/item?id=47495527">140 comments</a></div>
 </div>
 <div class="news-item hn">
 <h3><a href="https://socket.dev/blog/trivy-under-attack-again-github-actions-compromise" target="_blank" rel="noopener">Trivy under attack again: Widespread GitHub Actions tag compromise secrets</a></h3>
@@ -109,7 +109,7 @@ date: 2026-03-24
 </div>
 
 <div class="page-footer">
-Last updated: 2026-03-24 21:25 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
+Last updated: 2026-03-24 21:27 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
 </div>
 
 </div>
