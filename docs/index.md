@@ -1,6 +1,6 @@
 ---
 title: "AI NEWS | 2026-03-24"
-description: "2026年3月24日 の生成AI最新ニュース (19件)"
+description: "2026年3月24日 の生成AI最新ニュース (15件)"
 date: 2026-03-24
 ---
 
@@ -10,16 +10,15 @@ date: 2026-03-24
 <h1 class="page-title">AI NEWS</h1>
 <p class="page-date">2026年3月24日</p>
 <div class="page-stats">
-<span class="stat">19 articles</span>
+<span class="stat">15 articles</span>
 <span class="stat">Updated daily 6:00 AM JST</span>
 </div></div>
 
 <p class="section-label">TODAY'S KEYWORDS</p>
 <div class="trend-tags">
-<span class="trend-tag hot">AGI</span>
 <span class="trend-tag hot">Claude</span>
 <span class="trend-tag hot">Google</span>
-<span class="trend-tag">ChatGPT</span>
+<span class="trend-tag hot">AGI</span>
 <span class="trend-tag">LLM</span>
 <span class="trend-tag">Agent</span>
 </div>
@@ -89,52 +88,28 @@ date: 2026-03-24
 <div class="news-grid">
 <div class="news-item hn">
 <h3><a href="https://twitter.com/anemll/status/2035901335984611412" target="_blank" rel="noopener">iPhone 17 Pro Demonstrated Running a 400B LLM</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 638 pts · <a href="https://news.ycombinator.com/item?id=47490070">284 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 642 pts · <a href="https://news.ycombinator.com/item?id=47490070">285 comments</a></div>
 </div>
 <div class="news-item hn">
 <h3><a href="https://blog.mozilla.ai/cq-stack-overflow-for-agents/" target="_blank" rel="noopener">Show HN: Cq – Stack Overflow for AI coding agents</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 159 pts · <a href="https://news.ycombinator.com/item?id=47491466">63 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 162 pts · <a href="https://news.ycombinator.com/item?id=47491466">63 comments</a></div>
 </div>
 <div class="news-item hn">
 <h3><a href="https://cc.storyfox.cz" target="_blank" rel="noopener">Claude Code Cheat Sheet</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 453 pts · <a href="https://news.ycombinator.com/item?id=47495527">136 comments</a></div>
-</div>
-<div class="news-item hn">
-<h3><a href="https://magicaudio.pro/" target="_blank" rel="noopener">MagicAudio – Free Noise, Echo and Background Music Remover</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 14 pts · <a href="https://news.ycombinator.com/item?id=47499814">8 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 457 pts · <a href="https://news.ycombinator.com/item?id=47495527">140 comments</a></div>
 </div>
 <div class="news-item hn">
 <h3><a href="https://socket.dev/blog/trivy-under-attack-again-github-actions-compromise" target="_blank" rel="noopener">Trivy under attack again: Widespread GitHub Actions tag compromise secrets</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 215 pts · <a href="https://news.ycombinator.com/item?id=47475888">74 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 215 pts · <a href="https://news.ycombinator.com/item?id=47475888">77 comments</a></div>
 </div>
-</div>
-
-<p class="section-label">VIDEOS</p>
-<div class="news-grid">
-<div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=zizoDORjmlQ" target="_blank" rel="noopener">What the New ChatGPT 5.4 Means for the World</a></h3>
-<p>Just 48 hours after releasing GPT 5.3 Instant, OpenAI have released GPT 5.4 Thinking, so either their is an imminent singularity or perhaps we are being...</p>
-<div class="card-meta"><span class="source-badge">AI Explained</span> · 2026-03-06</div>
-</div>
-<div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=Cru804JMjPI" target="_blank" rel="noopener">Deadline Day for Autonomous AI Weapons & Mass Surveillance</a></h3>
-<p>Will Anthropic be forced to make a version of Claude for war? And does a new paper expose the risks of Claude agents, in both OpenClaw and the field of war?...</p>
-<div class="card-meta"><span class="source-badge">AI Explained</span> · 2026-02-27</div>
-</div>
-<div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=RDQ4vHAPNls" target="_blank" rel="noopener">This Physics Breakthrough Looks Impossible</a></h3>
-<p>❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 The paper is available here:...</p>
-<div class="card-meta"><span class="source-badge">Two Minute Papers</span> · 2026-03-12</div>
-</div>
-<div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=s9SnEE7JXU4" target="_blank" rel="noopener">NVIDIA’s New AI Just Cracked The Hardest Part Of Self Driving</a></h3>
-<p>❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 The paper is available here: https://github.com/NVlabs/alpamayo Research...</p>
-<div class="card-meta"><span class="source-badge">Two Minute Papers</span> · 2026-03-10</div>
+<div class="news-item hn">
+<h3><a href="https://www.itsthatlady.dev/blog/building-an-ai-receptionist-for-my-brother/" target="_blank" rel="noopener">I built an AI receptionist for a mechanic shop</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 298 pts · <a href="https://news.ycombinator.com/item?id=47487536">298 comments</a></div>
 </div>
 </div>
 
 <div class="page-footer">
-Last updated: 2026-03-24 21:08 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
+Last updated: 2026-03-24 21:25 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
 </div>
 
 </div>
