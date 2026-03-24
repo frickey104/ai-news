@@ -103,6 +103,24 @@ def parse_date(entry) -> str:
     return ""
 
 
+def is_recent(date_str: str, days: int = 7) -> bool:
+    if not date_str:
+        return True
+    try:
+        dt = datetime.strptime(date_str[:10], "%Y-%m-%d").replace(tzinfo=JST)
+        return (NOW - dt).days <= days
+    except Exception:
+        return True
+
+
+def format_views(n: int) -> str:
+    if n >= 1_000_000:
+        return f"{n/1_000_000:.1f}M views"
+    if n >= 1_000:
+        return f"{n/1_000:.0f}K views"
+    return f"{n} views"
+
+
 def extract_keywords(titles: list) -> list:
     KNOWN = [
         "GPT-5", "GPT-4o", "GPT-4", "ChatGPT", "o3", "o1",
@@ -303,6 +321,88 @@ def fetch_youtube() -> list:
     return items
 
 
+def fetch_youtube_popular() -> list:
+    api_key = os.environ.get("YOUTUBE_API_KEY", "")
+    if not api_key:
+        print("  YOUTUBE_API_KEY 未設定")
+        return []
+
+    published_after = (NOW - timedelta(days=7)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    queries = [
+        "AI artificial intelligence",
+        "ChatGPT Claude Gemini LLM",
+        "OpenAI Anthropic Google AI",
+    ]
+
+    items = []
+    seen_ids = set()
+
+    for q in queries:
+        try:
+            url = (
+                "https://www.googleapis.com/youtube/v3/search"
+                f"?part=snippet&q={requests.utils.quote(q)}&type=video"
+                f"&order=viewCount&publishedAfter={published_after}"
+                f"&maxResults=5&key={api_key}"
+            )
+            resp = requests.get(url, headers=HEADERS, timeout=10)
+            data = resp.json()
+            if "error" in data:
+                print(f"  YouTube API エラー: {data['error']['message']}")
+                break
+            for item in data.get("items", []):
+                vid_id = item["id"]["videoId"]
+                if vid_id in seen_ids:
+                    continue
+                seen_ids.add(vid_id)
+                snippet = item["snippet"]
+                items.append({
+                    "title": snippet.get("title", ""),
+                    "url": f"https://www.youtube.com/watch?v={vid_id}",
+                    "channel": snippet.get("channelTitle", ""),
+                    "published": snippet.get("publishedAt", "")[:10],
+                    "description": truncate(snippet.get("description", ""), 160),
+                    "vid_id": vid_id,
+                    "view_count": 0,
+                    "like_count": 0,
+                })
+        except Exception as e:
+            print(f"  YouTube検索 [{q}] エラー: {e}")
+
+    if not items:
+        return []
+
+    try:
+        vid_ids = ",".join([i["vid_id"] for i in items[:20]])
+        stats_url = (
+            "https://www.googleapis.com/youtube/v3/videos"
+            f"?part=statistics&id={vid_ids}&key={api_key}"
+        )
+        stats_map = {
+            s["id"]: s.get("statistics", {})
+            for s in requests.get(stats_url, headers=HEADERS, timeout=10).json().get("items", [])
+        }
+        for item in items:
+            s = stats_map.get(item["vid_id"], {})
+            item["view_count"] = int(s.get("viewCount", 0))
+            item["like_count"] = int(s.get("likeCount", 0))
+        items.sort(key=lambda x: x["view_count"], reverse=True)
+    except Exception as e:
+        print(f"  YouTube stats エラー: {e}")
+
+    seen_titles, result = set(), []
+    for item in items:
+        key = item["title"].lower()[:50]
+        if key not in seen_titles:
+            seen_titles.add(key)
+            result.append(item)
+        if len(result) >= 6:
+            break
+
+    print(f"  YouTube API: {len(result)}件")
+    return result
+
+
 # ===== Markdown 生成 =====
 
 def generate_markdown(rss_items, reddit_items, hn_items, youtube_items) -> str:
@@ -377,17 +477,9 @@ def generate_markdown(rss_items, reddit_items, hn_items, youtube_items) -> str:
             L += [f'<div class="card-meta">{meta}</div>', "</div>"]
         L += ["</div>", ""]
 
-    if reddit_items or hn_items:
+    if hn_items:
         L.append('<p class="section-label">COMMUNITY</p>')
         L.append('<div class="news-grid">')
-        for item in reddit_items:
-            L += [
-                '<div class="news-item reddit">',
-                f'<h3><a href="{item["url"]}" target="_blank" rel="noopener">{item["title"]}</a></h3>',
-                f'<div class="card-meta"><span class="source-badge">r/{item["sub"]}</span>'
-                f' · {item["score"]:,} pts · {item["comments"]:,} comments</div>',
-                "</div>",
-            ]
         for item in hn_items:
             L += [
                 '<div class="news-item hn">',
@@ -400,10 +492,13 @@ def generate_markdown(rss_items, reddit_items, hn_items, youtube_items) -> str:
         L += ["</div>", ""]
 
     if youtube_items:
-        L.append('<p class="section-label">VIDEOS</p>')
+        L.append('<p class="section-label">TRENDING VIDEOS</p>')
         L.append('<div class="news-grid">')
         for item in youtube_items:
+            views = format_views(item.get("view_count", 0)) if item.get("view_count") else ""
             meta = f'<span class="source-badge">{item["channel"]}</span>'
+            if views:
+                meta += f' · <span class="view-count">{views}</span>'
             if item.get("published"):
                 meta += f' · {item["published"]}'
             L.append('<div class="news-item youtube">')
@@ -469,19 +564,19 @@ def main():
     print(f"=== AI ニュース収集開始 ({DATE_STR}) ===")
 
     print("\n[RSS]")
-    rss_items = fetch_rss()
+    rss_items = [i for i in fetch_rss() if is_recent(i.get("date", ""))]
 
-    print("\n[Reddit]")
+    print("\n[Reddit] キーワード分析用")
     reddit_items = fetch_reddit()
 
     print("\n[HackerNews]")
-    hn_items = fetch_hackernews()
+    hn_items = [i for i in fetch_hackernews() if is_recent(i.get("date", ""))]
 
     print("\n[YouTube]")
-    youtube_items = fetch_youtube()
+    youtube_items = fetch_youtube_popular()
 
-    total = len(rss_items) + len(reddit_items) + len(hn_items) + len(youtube_items)
-    print(f"\n合計 {total} 件収集")
+    total = len(rss_items) + len(hn_items) + len(youtube_items)
+    print(f"\n合計 {total} 件（Reddit はキーワード分析のみ）")
 
     # Markdown 生成
     content = generate_markdown(rss_items, reddit_items, hn_items, youtube_items)

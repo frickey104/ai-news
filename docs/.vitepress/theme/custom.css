@@ -361,6 +361,11 @@ body {
   color: var(--c-accent);
 }
 
+.view-count {
+  color: var(--c-accent-3);
+  font-weight: 600;
+}
+
 .source-badge {
   display: inline-block;
   padding: 0.1rem 0.45rem;
