@@ -103,6 +103,68 @@ def parse_date(entry) -> str:
     return ""
 
 
+def extract_keywords(titles: list) -> list:
+    KNOWN = [
+        "GPT-5", "GPT-4o", "GPT-4", "ChatGPT", "o3", "o1",
+        "Claude", "Gemini", "Llama", "Mistral", "DeepSeek", "Grok",
+        "OpenAI", "Anthropic", "Google", "Meta", "Microsoft", "Apple",
+        "AGI", "LLM", "RAG", "Agent", "Reasoning", "Multimodal",
+        "Sora", "Midjourney", "DALL-E", "Stable Diffusion",
+        "Copilot", "Perplexity", "Cursor", "Vibe coding",
+    ]
+    from collections import Counter
+    text = " ".join(titles)
+    counts = Counter()
+    for kw in KNOWN:
+        n = text.lower().count(kw.lower())
+        if n > 0:
+            counts[kw] = n
+    return [kw for kw, _ in counts.most_common(12)]
+
+
+def translate_with_claude(items: list) -> list:
+    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+    if not api_key:
+        return items
+    try:
+        import anthropic
+        client = anthropic.Anthropic(api_key=api_key)
+        payload = [
+            {"i": i, "title": item.get("title", ""), "summary": item.get("summary", "")}
+            for i, item in enumerate(items)
+            if item.get("title")
+        ]
+        if not payload:
+            return items
+        message = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=4000,
+            messages=[{
+                "role": "user",
+                "content": (
+                    "以下のAIニュース記事リストのtitleとsummaryを自然な日本語に翻訳してください。"
+                    "summaryが空の場合は空のままにしてください。"
+                    "同じJSON配列形式のみ返してください。\n\n"
+                    + json.dumps(payload[:20], ensure_ascii=False)
+                ),
+            }],
+        )
+        translated = json.loads(message.content[0].text)
+        result = list(items)
+        for t in translated:
+            idx = t.get("i")
+            if idx is not None and 0 <= idx < len(result):
+                result[idx] = dict(result[idx])
+                result[idx]["title"] = t.get("title", result[idx]["title"])
+                if t.get("summary"):
+                    result[idx]["summary"] = t["summary"]
+        print(f"  翻訳完了: {len(translated)}件")
+        return result
+    except Exception as e:
+        print(f"  翻訳スキップ: {e}")
+        return items
+
+
 # ===== データ収集 =====
 
 def fetch_rss() -> list:
@@ -244,116 +306,124 @@ def fetch_youtube() -> list:
 # ===== Markdown 生成 =====
 
 def generate_markdown(rss_items, reddit_items, hn_items, youtube_items) -> str:
+    print("\n[翻訳]")
+    translated_rss = translate_with_claude(rss_items)
+
+    all_titles = [i.get("title", "") for i in rss_items + reddit_items + hn_items + youtube_items]
+    keywords = extract_keywords(all_titles)
+
     total = len(rss_items) + len(reddit_items) + len(hn_items) + len(youtube_items)
-    lines = [
+    highlights = translated_rss[:3]
+    rest_rss = translated_rss[3:]
+    date_jp = NOW.strftime("%Y年%-m月%-d日")
+
+    L = []
+
+    L += [
         "---",
-        f'title: "AI ニュースまとめ | {DATE_STR}"',
-        f'description: "{PERIOD_START} 〜 {PERIOD_END} の生成AI最新情報 ({total}件)"',
+        f'title: "AI NEWS | {DATE_STR}"',
+        f'description: "{date_jp} の生成AI最新ニュース ({total}件)"',
         f"date: {DATE_STR}",
         "---",
         "",
-        '<div class="news-header">',
+        '<div class="ai-page">',
         "",
-        "# AI ニュースまとめ",
-        "",
-        f'<p class="news-period">{PERIOD_START} 〜 {PERIOD_END}</p>',
-        "",
-        "</div>",
+        '<div class="page-header">',
+        '<h1 class="page-title">AI NEWS</h1>',
+        f'<p class="page-date">{date_jp}</p>',
+        '<div class="page-stats">',
+        f'<span class="stat">{total} articles</span>',
+        '<span class="stat">Updated daily 6:00 AM JST</span>',
+        "</div></div>",
         "",
     ]
 
-    # --- RSS ---
-    if rss_items:
-        lines += [
-            "## 📰 注目ニュース",
-            "",
-            "_海外テックメディアの最新AI記事_",
-            "",
-        ]
-        for item in rss_items:
-            lines += ['<div class="news-card">', ""]
-            lines += [f'### [{item["title"]}]({item["url"]})', ""]
-            if item.get("summary"):
-                lines += [item["summary"], ""]
-            lines += [
-                f'<div class="news-meta">'
-                f'<span class="news-source">{item["source"]}</span>'
-                f'{" · " + item["date"] if item.get("date") else ""}'
-                f"</div>",
-                "",
-                "</div>",
-                "",
-            ]
+    if keywords:
+        L.append('<p class="section-label">TODAY\'S KEYWORDS</p>')
+        L.append('<div class="trend-tags">')
+        for i, kw in enumerate(keywords):
+            cls = "trend-tag hot" if i < 3 else "trend-tag"
+            L.append(f'<span class="{cls}">{kw}</span>')
+        L += ["</div>", ""]
 
-    # --- Reddit ---
+    if highlights:
+        L.append('<p class="section-label">HIGHLIGHTS</p>')
+        L.append('<div class="highlights-grid">')
+        for item in highlights:
+            meta = f'<span class="source-badge">{item.get("source","")}</span>'
+            if item.get("date"):
+                meta += f' · {item["date"]}'
+            L += [
+                '<div class="highlight-card">',
+                '<div class="highlight-badge">PICK UP</div>',
+                f'<h3><a href="{item["url"]}" target="_blank" rel="noopener">{item["title"]}</a></h3>',
+            ]
+            if item.get("summary"):
+                L.append(f'<p>{item["summary"]}</p>')
+            L += [f'<div class="card-meta">{meta}</div>', "</div>"]
+        L += ["</div>", ""]
+
+    if rest_rss:
+        L.append('<p class="section-label">AI NEWS</p>')
+        L.append('<div class="news-grid">')
+        for item in rest_rss:
+            meta = f'<span class="source-badge">{item.get("source","")}</span>'
+            if item.get("date"):
+                meta += f' · {item["date"]}'
+            L.append('<div class="news-item">')
+            L.append(f'<h3><a href="{item["url"]}" target="_blank" rel="noopener">{item["title"]}</a></h3>')
+            if item.get("summary"):
+                L.append(f'<p>{item["summary"]}</p>')
+            L += [f'<div class="card-meta">{meta}</div>', "</div>"]
+        L += ["</div>", ""]
+
     if reddit_items or hn_items:
-        lines += [
-            "## 💬 Reddit / HackerNews",
-            "",
-            "_エンジニア・研究者コミュニティの話題_",
-            "",
-        ]
+        L.append('<p class="section-label">COMMUNITY</p>')
+        L.append('<div class="news-grid">')
         for item in reddit_items:
-            lines += ['<div class="news-card reddit">', ""]
-            lines += [f'### [{item["title"]}]({item["url"]})', ""]
-            lines += [
-                f'<div class="news-meta">'
-                f'<span class="news-source">r/{item["sub"]}</span>'
-                f' · 👍 {item["score"]:,}'
-                f' · 💬 {item["comments"]:,}'
-                f"</div>",
-                "",
+            L += [
+                '<div class="news-item reddit">',
+                f'<h3><a href="{item["url"]}" target="_blank" rel="noopener">{item["title"]}</a></h3>',
+                f'<div class="card-meta"><span class="source-badge">r/{item["sub"]}</span>'
+                f' · {item["score"]:,} pts · {item["comments"]:,} comments</div>',
                 "</div>",
-                "",
             ]
         for item in hn_items:
-            lines += ['<div class="news-card hn">', ""]
-            lines += [f'### [{item["title"]}]({item["url"]})', ""]
-            lines += [
-                f'<div class="news-meta">'
-                f'<span class="news-source">HackerNews</span>'
-                f' · 👍 {item["score"]}'
-                f' · <a href="{item["hn_url"]}">💬 {item["comments"]}件</a>'
-                f"</div>",
-                "",
+            L += [
+                '<div class="news-item hn">',
+                f'<h3><a href="{item["url"]}" target="_blank" rel="noopener">{item["title"]}</a></h3>',
+                f'<div class="card-meta"><span class="source-badge">HackerNews</span>'
+                f' · {item["score"]} pts'
+                f' · <a href="{item["hn_url"]}">{item["comments"]} comments</a></div>',
                 "</div>",
-                "",
             ]
+        L += ["</div>", ""]
 
-    # --- YouTube ---
     if youtube_items:
-        lines += [
-            "## 🎥 YouTube 注目動画",
-            "",
-            "_AIチャンネルの最新動画_",
-            "",
-        ]
+        L.append('<p class="section-label">VIDEOS</p>')
+        L.append('<div class="news-grid">')
         for item in youtube_items:
-            lines += ['<div class="news-card youtube">', ""]
-            lines += [f'### [{item["title"]}]({item["url"]})', ""]
+            meta = f'<span class="source-badge">{item["channel"]}</span>'
+            if item.get("published"):
+                meta += f' · {item["published"]}'
+            L.append('<div class="news-item youtube">')
+            L.append(f'<h3><a href="{item["url"]}" target="_blank" rel="noopener">{item["title"]}</a></h3>')
             if item.get("description"):
-                lines += [item["description"], ""]
-            lines += [
-                f'<div class="news-meta">'
-                f'<span class="news-source">{item["channel"]}</span>'
-                f'{" · " + item["published"] if item.get("published") else ""}'
-                f"</div>",
-                "",
-                "</div>",
-                "",
-            ]
+                L.append(f'<p>{item["description"]}</p>')
+            L += [f'<div class="card-meta">{meta}</div>', "</div>"]
+        L += ["</div>", ""]
 
-    lines += [
-        "---",
+    L += [
+        '<div class="page-footer">',
+        f'Last updated: {NOW.strftime("%Y-%m-%d %H:%M")} JST'
+        f' &nbsp;|&nbsp; <a href="{BASE_PATH}/daily/">Archive</a>',
+        "</div>",
         "",
-        '<div class="news-footer">',
-        f'最終更新: {NOW.strftime("%Y年%m月%d日 %H:%M")} JST'
-        f' &nbsp;|&nbsp; <a href="{BASE_PATH}/weekly/">アーカイブ</a>',
         "</div>",
         "",
     ]
 
-    return "\n".join(lines)
+    return "\n".join(L)
 
 
 # ===== アーカイブ更新 =====
@@ -415,7 +485,7 @@ def main():
 
     # Markdown 生成
     content = generate_markdown(rss_items, reddit_items, hn_items, youtube_items)
-    title = f"AI ニュースまとめ | {DATE_STR}"
+    title = f"AI NEWS | {DATE_STR}"
 
     # 日次ファイル保存
     os.makedirs(DAILY_DIR, exist_ok=True)

@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: pip install feedparser requests
+      - run: pip install feedparser requests anthropic
 
       - run: python scripts/collect_ai_news.py
 

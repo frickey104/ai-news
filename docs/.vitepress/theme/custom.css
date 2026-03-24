@@ -1,211 +1,407 @@
-/* ===== ブランドカラー ===== */
+/* ===== Dark AI Theme ===== */
 :root {
-  --vp-c-brand-1: #6366f1;
-  --vp-c-brand-2: #4f46e5;
-  --vp-c-brand-3: #4338ca;
-  --vp-c-brand-soft: rgba(99, 102, 241, 0.12);
+  --c-bg: #06090f;
+  --c-bg-soft: #0d1117;
+  --c-bg-card: #0f1624;
+  --c-bg-card-hover: #141d2e;
+  --c-accent: #00e5ff;
+  --c-accent-2: #a855f7;
+  --c-accent-3: #10b981;
+  --c-text: #e2e8f0;
+  --c-text-2: #8899aa;
+  --c-text-3: #445566;
+  --c-border: rgba(255, 255, 255, 0.06);
+  --c-border-accent: rgba(0, 229, 255, 0.2);
 
-  --news-card-border: rgba(99, 102, 241, 0.15);
-  --news-card-bg: var(--vp-c-bg-soft);
-  --news-source-bg: rgba(99, 102, 241, 0.1);
-  --news-source-color: var(--vp-c-brand-1);
+  --vp-c-brand-1: #00e5ff;
+  --vp-c-brand-2: #00c4da;
+  --vp-c-brand-3: #0099b3;
+  --vp-c-brand-soft: rgba(0, 229, 255, 0.08);
+  --vp-c-bg: var(--c-bg);
+  --vp-c-bg-soft: var(--c-bg-soft);
+  --vp-c-bg-mute: var(--c-bg-card);
+  --vp-c-text-1: var(--c-text);
+  --vp-c-text-2: var(--c-text-2);
+  --vp-c-text-3: var(--c-text-3);
+  --vp-c-divider: var(--c-border);
+  --vp-c-gutter: var(--c-bg);
 }
 
-.dark {
-  --news-card-border: rgba(99, 102, 241, 0.22);
-  --news-card-bg: rgba(255, 255, 255, 0.03);
-  --news-source-bg: rgba(99, 102, 241, 0.15);
+/* ===== Base ===== */
+body {
+  background: var(--c-bg) !important;
+  color: var(--c-text) !important;
 }
 
-/* ===== ナビゲーション ===== */
+/* ===== Nav ===== */
 .VPNav {
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background: rgba(6, 9, 15, 0.88) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  border-bottom: 1px solid var(--c-border) !important;
 }
 
-/* ===== ニュースヘッダー ===== */
-.news-header {
-  text-align: center;
-  padding: 3.5rem 0 2.5rem;
-  border-bottom: 1px solid var(--vp-c-divider);
-  margin-bottom: 3rem;
-}
-
-.news-header h1 {
-  font-size: clamp(1.8rem, 4vw, 2.8rem);
+.VPNavBar .title {
   font-weight: 800;
-  letter-spacing: -0.03em;
-  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #06b6d4 100%);
+  letter-spacing: 0.1em;
+  background: linear-gradient(90deg, #00e5ff, #a855f7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin: 0 0 0.75rem !important;
-  border: none !important;
-  padding: 0 !important;
-  line-height: 1.2;
 }
 
-.news-period {
-  color: var(--vp-c-text-2);
-  font-size: 0.95rem;
-  margin: 0 !important;
-  letter-spacing: 0.01em;
-}
-
-/* ===== セクション見出し ===== */
-.vp-doc h2 {
-  font-size: 1.15rem;
-  font-weight: 700;
-  margin: 3rem 0 0.5rem;
-  padding: 0 0 0.75rem;
-  border-bottom: 2px solid var(--vp-c-divider);
-  letter-spacing: -0.01em;
-}
-
-.vp-doc h2 + p {
-  color: var(--vp-c-text-2);
-  font-size: 0.875rem;
-  margin: 0 0 1.25rem;
-  font-style: italic;
-}
-
-/* ===== ニュースカード ===== */
-.news-card {
-  border: 1px solid var(--news-card-border);
-  border-radius: 12px;
-  padding: 1.25rem 1.5rem;
-  margin: 0.75rem 0;
-  background: var(--news-card-bg);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
-}
-
-.news-card:hover {
-  border-color: var(--vp-c-brand-1);
-  box-shadow: 0 4px 24px rgba(99, 102, 241, 0.1);
-  transform: translateY(-2px);
-}
-
-.news-card h3 {
-  font-size: 1rem !important;
-  font-weight: 600 !important;
-  line-height: 1.5 !important;
-  margin: 0 0 0.6rem !important;
-  border: none !important;
-  padding: 0 !important;
-}
-
-.news-card h3 a {
-  color: var(--vp-c-text-1) !important;
-  text-decoration: none !important;
-  transition: color 0.15s;
-}
-
-.news-card h3 a:hover {
-  color: var(--vp-c-brand-1) !important;
-}
-
-.news-card > p {
-  font-size: 0.875rem;
-  color: var(--vp-c-text-2);
-  line-height: 1.65;
-  margin: 0 0 0.75rem !important;
-}
-
-/* ===== カテゴリ別アクセント ===== */
-.news-card.reddit {
-  border-left: 3px solid #ff4500;
-}
-
-.news-card.hn {
-  border-left: 3px solid #ff6600;
-}
-
-.news-card.youtube {
-  border-left: 3px solid #ef4444;
-}
-
-/* ===== メタ情報 ===== */
-.news-meta {
-  font-size: 0.78rem;
-  color: var(--vp-c-text-3);
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-  margin-top: 0.5rem;
-}
-
-.news-meta a {
-  color: var(--vp-c-text-3);
-  text-decoration: none;
-}
-
-.news-meta a:hover {
-  color: var(--vp-c-brand-1);
-}
-
-.news-source {
-  display: inline-block;
-  padding: 0.15rem 0.55rem;
-  border-radius: 4px;
-  background: var(--news-source-bg);
-  color: var(--news-source-color);
-  font-weight: 600;
-  font-size: 0.73rem;
-  letter-spacing: 0.01em;
-}
-
-/* ===== フッター ===== */
-.news-footer {
-  text-align: center;
-  padding: 1.75rem 0 0.5rem;
-  color: var(--vp-c-text-3);
-  font-size: 0.8rem;
-  margin-top: 2.5rem;
-  border-top: 1px solid var(--vp-c-divider);
-}
-
-.news-footer a {
-  color: var(--vp-c-brand-1);
-  text-decoration: none;
-}
-
-/* ===== コンテンツ幅 ===== */
+/* ===== Page Layout ===== */
 .VPDoc .container {
-  max-width: 860px !important;
+  max-width: 1080px !important;
 }
-
 .VPDoc .content-container {
-  max-width: 860px !important;
+  max-width: 1080px !important;
 }
-
-/* ===== サイドバー非表示 ===== */
 .VPDocAside {
   display: none !important;
 }
-
 .VPDoc .content {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
-
 @media (min-width: 960px) {
   .VPDoc:not(.has-sidebar) .content {
-    max-width: 860px;
+    max-width: 1080px;
   }
 }
 
-/* ===== アーカイブページ ===== */
-.vp-doc .archive-list {
-  list-style: none;
-  padding: 0;
+/* ===== AI Page Wrapper ===== */
+.ai-page {
+  padding: 0 0 4rem;
 }
 
-.vp-doc .archive-list li {
-  padding: 0.75rem 0;
-  border-bottom: 1px solid var(--vp-c-divider);
+/* ===== Page Header ===== */
+.page-header {
+  text-align: center;
+  padding: 3.5rem 1rem 2.5rem;
+  position: relative;
 }
 
-.vp-doc .archive-list li:last-child {
-  border-bottom: none;
+.page-header::after {
+  content: '';
+  display: block;
+  width: 200px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--c-accent), transparent);
+  margin: 2rem auto 0;
+}
+
+.page-title {
+  font-size: clamp(3rem, 8vw, 5.5rem) !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.15em !important;
+  background: linear-gradient(135deg, #00e5ff 0%, #a855f7 55%, #ec4899 100%);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  margin: 0 0 0.5rem !important;
+  border: none !important;
+  padding: 0 !important;
+  line-height: 1.05 !important;
+}
+
+.page-date {
+  font-size: 0.78rem !important;
+  color: var(--c-text-3) !important;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin: 0 0 1.25rem !important;
+}
+
+.page-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.stat {
+  font-size: 0.75rem;
+  color: var(--c-text-3);
+  letter-spacing: 0.05em;
+}
+
+/* ===== Section Labels ===== */
+.section-label {
+  font-size: 0.65rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.2em !important;
+  text-transform: uppercase !important;
+  color: var(--c-accent) !important;
+  margin: 2.5rem 0 1rem !important;
+  padding: 0 !important;
+  border: none !important;
+  display: flex !important;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.section-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--c-border-accent), transparent);
+}
+
+/* ===== Trend Keywords ===== */
+.trend-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.trend-tag {
+  display: inline-block;
+  padding: 0.28rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  border: 1px solid var(--c-border-accent);
+  color: var(--c-accent);
+  background: rgba(0, 229, 255, 0.05);
+  transition: all 0.18s ease;
+}
+
+.trend-tag:hover {
+  background: rgba(0, 229, 255, 0.12);
+  border-color: var(--c-accent);
+  box-shadow: 0 0 14px rgba(0, 229, 255, 0.25);
+  transform: translateY(-1px);
+}
+
+.trend-tag.hot {
+  border-color: rgba(168, 85, 247, 0.4);
+  color: #c084fc;
+  background: rgba(168, 85, 247, 0.07);
+}
+
+.trend-tag.hot:hover {
+  background: rgba(168, 85, 247, 0.15);
+  border-color: #a855f7;
+  box-shadow: 0 0 14px rgba(168, 85, 247, 0.25);
+}
+
+/* ===== Highlights Grid ===== */
+.highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 860px) {
+  .highlights-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 860px) {
+  .highlights-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.highlight-card {
+  background: var(--c-bg-card);
+  border: 1px solid var(--c-border-accent);
+  border-radius: 14px;
+  padding: 1.25rem 1.35rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.highlight-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--c-accent), var(--c-accent-2));
+}
+
+.highlight-card:hover {
+  border-color: rgba(0, 229, 255, 0.4);
+  box-shadow: 0 0 40px rgba(0, 229, 255, 0.08), 0 12px 40px rgba(0, 0, 0, 0.4);
+  transform: translateY(-4px);
+}
+
+.highlight-badge {
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  color: var(--c-accent);
+  opacity: 0.7;
+  margin-bottom: 0.55rem;
+}
+
+.highlight-card h3 {
+  font-size: 0.92rem !important;
+  font-weight: 600 !important;
+  line-height: 1.55 !important;
+  margin: 0 0 0.55rem !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.highlight-card h3 a {
+  color: var(--c-text) !important;
+  text-decoration: none !important;
+  transition: color 0.15s;
+}
+
+.highlight-card h3 a:hover {
+  color: var(--c-accent) !important;
+}
+
+.highlight-card p {
+  font-size: 0.8rem !important;
+  color: var(--c-text-2) !important;
+  line-height: 1.6 !important;
+  margin: 0 0 0.65rem !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ===== News Grid ===== */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.7rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 580px) {
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.news-item {
+  background: var(--c-bg-card);
+  border: 1px solid var(--c-border);
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  transition: all 0.18s ease;
+}
+
+.news-item:hover {
+  border-color: rgba(0, 229, 255, 0.18);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+.news-item.reddit {
+  border-left: 2px solid rgba(255, 69, 0, 0.6);
+}
+
+.news-item.hn {
+  border-left: 2px solid rgba(255, 102, 0, 0.6);
+}
+
+.news-item.youtube {
+  border-left: 2px solid rgba(239, 68, 68, 0.6);
+}
+
+.news-item h3 {
+  font-size: 0.875rem !important;
+  font-weight: 600 !important;
+  line-height: 1.5 !important;
+  margin: 0 0 0.45rem !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.news-item h3 a {
+  color: var(--c-text) !important;
+  text-decoration: none !important;
+  transition: color 0.15s;
+}
+
+.news-item h3 a:hover {
+  color: var(--c-accent) !important;
+}
+
+.news-item p {
+  font-size: 0.78rem !important;
+  color: var(--c-text-2) !important;
+  line-height: 1.55 !important;
+  margin: 0 0 0.5rem !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ===== Card Meta ===== */
+.card-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+  font-size: 0.7rem;
+  color: var(--c-text-3);
+  margin-top: 0.4rem;
+}
+
+.card-meta a {
+  color: var(--c-text-3);
+  text-decoration: none;
+}
+
+.card-meta a:hover {
+  color: var(--c-accent);
+}
+
+.source-badge {
+  display: inline-block;
+  padding: 0.1rem 0.45rem;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.65rem;
+  letter-spacing: 0.04em;
+  background: rgba(0, 229, 255, 0.07);
+  color: var(--c-accent);
+  border: 1px solid rgba(0, 229, 255, 0.15);
+}
+
+/* ===== Page Footer ===== */
+.page-footer {
+  text-align: center;
+  padding: 2rem 0 0.5rem;
+  color: var(--c-text-3);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  border-top: 1px solid var(--c-border);
+  margin-top: 3rem;
+}
+
+.page-footer a {
+  color: var(--c-accent);
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.page-footer a:hover {
+  opacity: 1;
+}
+
+/* ===== VitePress defaults override ===== */
+.vp-doc h2 {
+  border-top: none !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.VPFooter {
+  background: var(--c-bg) !important;
+  border-top: 1px solid var(--c-border) !important;
 }

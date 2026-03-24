@@ -1,11 +1,12 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  title: "AI ニュースまとめ",
+  title: "AI NEWS",
   base: "/ai-news/",
-  description: "生成AI・テクノロジーの最新情報を毎日自動収集してお届け",
+  description: "生成AIの最新情報を毎日自動収集してお届け",
   lang: "ja",
   cleanUrls: true,
+  appearance: "dark",
 
   head: [
     ["meta", { name: "theme-color", content: "#0f172a" }],
@@ -15,9 +16,9 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: "最新号", link: "/" },
-      { text: "アーカイブ", link: "/daily/" },
-      { text: "ソース一覧", link: "/about" },
+      { text: "TODAY", link: "/" },
+      { text: "ARCHIVE", link: "/daily/" },
+      { text: "SOURCES", link: "/about" },
     ],
 
     sidebar: false,
@@ -27,7 +28,7 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: "© 2026 AI ニュースまとめ &nbsp;|&nbsp; 毎日朝6時自動更新",
+      copyright: "© 2026 AI NEWS &nbsp;|&nbsp; Updated daily at 6:00 AM JST",
     },
 
     search: {
