@@ -91,24 +91,24 @@ date: 2026-03-25
 <p class="section-label">COMMUNITY</p>
 <div class="news-grid">
 <div class="news-item hn">
-<h3><a href="https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN42922-AR_601-210-000-WEB-1.pdf" target="_blank" rel="noopener">US Army raises enlistment age to 42 and removes marijuana waiver requirement</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 100 pts · <a href="https://news.ycombinator.com/item?id=47513008">72 comments</a></div>
+<h3><a href="https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/" target="_blank" rel="noopener">TurboQuant: Redefining AI efficiency with extreme compression</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 153 pts · <a href="https://news.ycombinator.com/item?id=47513475">30 comments</a></div>
 </div>
 <div class="news-item hn">
 <h3><a href="https://flighty.com/airports" target="_blank" rel="noopener">Flighty Airports</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 180 pts · <a href="https://news.ycombinator.com/item?id=47511589">61 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 320 pts · <a href="https://news.ycombinator.com/item?id=47511589">104 comments</a></div>
 </div>
 <div class="news-item hn">
 <h3><a href="https://github.com/BerriAI/litellm/issues/24512" target="_blank" rel="noopener">Tell HN: Litellm 1.82.7 and 1.82.8 on PyPI are compromised</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 565 pts · <a href="https://news.ycombinator.com/item?id=47501426">395 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 679 pts · <a href="https://news.ycombinator.com/item?id=47501426">427 comments</a></div>
 </div>
 <div class="news-item hn">
 <h3><a href="https://newsroom.arm.com/blog/introducing-arm-agi-cpu" target="_blank" rel="noopener">Arm AGI CPU</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 303 pts · <a href="https://news.ycombinator.com/item?id=47506251">235 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 345 pts · <a href="https://news.ycombinator.com/item?id=47506251">259 comments</a></div>
 </div>
 <div class="news-item hn">
 <h3><a href="https://www.emailmd.dev/" target="_blank" rel="noopener">Show HN: Email.md – Markdown to responsive, email-safe HTML</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 245 pts · <a href="https://news.ycombinator.com/item?id=47505144">57 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 293 pts · <a href="https://news.ycombinator.com/item?id=47505144">68 comments</a></div>
 </div>
 </div>
 
@@ -116,17 +116,17 @@ date: 2026-03-25
 <div class="news-grid">
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=UlfffoJktSQ" target="_blank" rel="noopener">Ai มีทั้งหมด 5 ระดับ คุณรู้จักมันในระดับไหน ? #computerscience #coding #ai #artificialintelligence</a></h3>
-<div class="card-meta"><span class="source-badge">CodeKub</span> · <span class="view-count">183K views</span> · 2026-03-21</div>
+<div class="card-meta"><span class="source-badge">CodeKub</span> · <span class="view-count">186K views</span> · 2026-03-21</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=eYUYdpG4UT8" target="_blank" rel="noopener">The Rise and Reckoning of AI | 2026 Isaac Asimov Memorial Debate</a></h3>
 <p>Artificial intelligence is reshaping every dimension of modern life, from scientific discovery and creative expression to national ...</p>
-<div class="card-meta"><span class="source-badge">American Museum of Natural History</span> · <span class="view-count">96K views</span> · 2026-03-21</div>
+<div class="card-meta"><span class="source-badge">American Museum of Natural History</span> · <span class="view-count">103K views</span> · 2026-03-21</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=DGd_NUqeHnw" target="_blank" rel="noopener">When Steve Jobs Predicted AI Before Everyone Else (2010)</a></h3>
 <p>In 2010, Steve Jobs made a bold move—acquiring Siri for $200 million before AI became mainstream. At a time when most ...</p>
-<div class="card-meta"><span class="source-badge">The Brave Coders</span> · <span class="view-count">57K views</span> · 2026-03-23</div>
+<div class="card-meta"><span class="source-badge">The Brave Coders</span> · <span class="view-count">67K views</span> · 2026-03-23</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=B6dM2JcBvOM" target="_blank" rel="noopener">Papan Catur Ini Lebih Pintar dari yang Kamu Kira🤯#shortsfeed</a></h3>
@@ -134,19 +134,19 @@ date: 2026-03-25
 <div class="card-meta"><span class="source-badge">Khaiviral</span> · <span class="view-count">43K views</span> · 2026-03-19</div>
 </div>
 <div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=PxJaWG2H12Q" target="_blank" rel="noopener">🤔 Гай Ричи больше не нужен? Вот что может ИИ #ai #нейросетьзахватитмир #искусственныйинтеллект</a></h3>
-<p>Гай Ричи больше не нужен? Вот что может ИИ В 2008 году Nike выпустил один из самых культовых рекламных роликов в ...</p>
-<div class="card-meta"><span class="source-badge">Imagion AI. Видео уровня кино</span> · <span class="view-count">40K views</span> · 2026-03-19</div>
+<h3><a href="https://www.youtube.com/watch?v=DVQ44q-X84g" target="_blank" rel="noopener">​Ahorra en el súper con este truco de Inteligencia Artificial 🛒💸 #IA #Ahorro #Trucos</a></h3>
+<p>Cansado de gastar de más en el súper? ¡Atento a este truco! ​Solo necesitas tu lista y la inteligencia artificial. Sube una ...</p>
+<div class="card-meta"><span class="source-badge">Toni Reboredo • Fast Byte Informática</span> · <span class="view-count">38K views</span> · 2026-03-20</div>
 </div>
 <div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=92UOlDyHv_c" target="_blank" rel="noopener">오픈AI·앤트로픽·구글, 미국 AI 기업들의 전쟁 #교양이를부탁해</a></h3>
-<p>[비즈니스 문의] 교양이를 부탁해, 출연•협찬•콘텐츠 문의: sbs_explained@sbs.co.kr 들을수록 똑똑해지는 지식뉴스, 교양이를 부탁해 ...</p>
-<div class="card-meta"><span class="source-badge">교양이를 부탁해</span> · <span class="view-count">30K views</span> · 2026-03-20</div>
+<h3><a href="https://www.youtube.com/watch?v=KeO8HNjhfkM" target="_blank" rel="noopener">5 AIs Work Together to Make Windows 12 From Scratch!</a></h3>
+<p>Check out Abacus Ai and Deep Agent - https://chatllm.abacus.ai/gnv https://deepagent.abacus.ai/gnv Thank you so much for ...</p>
+<div class="card-meta"><span class="source-badge">Gameboy Hub</span> · <span class="view-count">17K views</span> · 2026-03-21</div>
 </div>
 </div>
 
 <div class="page-footer">
-Last updated: 2026-03-25 13:57 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
+Last updated: 2026-03-25 18:57 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
 </div>
 
 </div>
