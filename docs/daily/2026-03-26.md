@@ -17,11 +17,11 @@ date: 2026-03-26
 <p class="section-label">TODAY'S KEYWORDS</p>
 <div class="trend-tags">
 <span class="trend-tag hot">Claude</span>
-<span class="trend-tag hot">Google</span>
 <span class="trend-tag hot">Meta</span>
-<span class="trend-tag">Apple</span>
-<span class="trend-tag">ChatGPT</span>
+<span class="trend-tag hot">ChatGPT</span>
 <span class="trend-tag">Gemini</span>
+<span class="trend-tag">Google</span>
+<span class="trend-tag">Apple</span>
 <span class="trend-tag">AGI</span>
 <span class="trend-tag">LLM</span>
 </div>
@@ -30,20 +30,20 @@ date: 2026-03-26
 <div class="highlights-grid">
 <div class="highlight-card">
 <div class="highlight-badge">PICK UP</div>
-<h3><a href="https://techcrunch.com/2026/03/25/google-turboquant-ai-memory-compression-silicon-valley-pied-piper/" target="_blank" rel="noopener">Google unveils TurboQuant, a new AI memory compression algorithm — and yes, the internet is calling it ‘Pied Piper’</a></h3>
-<p>Google’s TurboQuant has the internet joking about Pied Piper from HBO's "Silicon Valley." The compression algorithm promises to shrink AI’s “working memory” by up to 6x, but it’s still just a lab...</p>
-<div class="card-meta"><span class="source-badge">TechCrunch</span> · Wed, 25 Ma</div>
+<h3><a href="https://techcrunch.com/2026/03/25/the-least-surprising-chapter-of-the-manus-story-is-whats-happening-right-now/" target="_blank" rel="noopener">The least surprising chapter of the Manus story is what’s happening right now</a></h3>
+<p>Did anyone think there would not be a reckoning over this tie-up?</p>
+<div class="card-meta"><span class="source-badge">TechCrunch</span> · Thu, 26 Ma</div>
 </div>
 <div class="highlight-card">
 <div class="highlight-badge">PICK UP</div>
-<h3><a href="https://techcrunch.com/2026/03/25/melania-trump-wants-a-robot-to-homeschool-your-child/" target="_blank" rel="noopener">Melania Trump wants a robot to homeschool your child</a></h3>
-<p>The first lady sees AI and robotics playing a prominent role in the future of American education.</p>
-<div class="card-meta"><span class="source-badge">TechCrunch</span> · Wed, 25 Ma</div>
+<h3><a href="https://techcrunch.com/2026/03/25/deccan-ai-raises-25m-as-ai-training-push-relies-on-india-based-workforce/" target="_blank" rel="noopener">Mercor competitor Deccan AI raises $25M, sources experts from India</a></h3>
+<p>Deccan AI concentrates its workforce in India to manage quality in a fast-growing but fragmented AI training market.</p>
+<div class="card-meta"><span class="source-badge">TechCrunch</span> · Thu, 26 Ma</div>
 </div>
 <div class="highlight-card">
 <div class="highlight-badge">PICK UP</div>
-<h3><a href="https://techcrunch.com/2026/03/25/bernie-sanders-and-aoc-propose-a-ban-on-data-center-construction/" target="_blank" rel="noopener">Bernie Sanders and AOC propose a ban on data center construction</a></h3>
-<p>Senator Bernie Sanders and Rep. Alexandria Ocasio-Cortez introduced companion legislation to halt construction on new data centers until Congress passes comprehensive AI regulation.</p>
+<h3><a href="https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/" target="_blank" rel="noopener">The AI skills gap is here, says AI company, and power users are pulling ahead</a></h3>
+<p>Anthropic finds AI isn’t replacing jobs yet, but early data shows growing inequality as experienced users gain an edge, raising concerns about future displacement and workforce divides.</p>
 <div class="card-meta"><span class="source-badge">TechCrunch</span> · Wed, 25 Ma</div>
 </div>
 </div>
@@ -51,8 +51,8 @@ date: 2026-03-26
 <p class="section-label">AI NEWS</p>
 <div class="news-grid">
 <div class="news-item">
-<h3><a href="https://techcrunch.com/2026/03/25/google-launches-lyria-3-pro-music-generation-model/" target="_blank" rel="noopener">Google launches Lyria 3 Pro music generation model</a></h3>
-<p>Google is launching Lyria 3 Pro, an upgraded music model that generates longer, more customizable tracks, as it expands AI music tools across Gemini, enterprise products, and other services.</p>
+<h3><a href="https://techcrunch.com/2026/03/25/google-turboquant-ai-memory-compression-silicon-valley-pied-piper/" target="_blank" rel="noopener">Google unveils TurboQuant, a new AI memory compression algorithm — and yes, the internet is calling it ‘Pied Piper’</a></h3>
+<p>Google’s TurboQuant has the internet joking about Pied Piper from HBO's "Silicon Valley." The compression algorithm promises to shrink AI’s “working memory” by up to 6x, but it’s still just a lab...</p>
 <div class="card-meta"><span class="source-badge">TechCrunch</span> · Wed, 25 Ma</div>
 </div>
 <div class="news-item">
@@ -91,23 +91,23 @@ date: 2026-03-26
 <div class="news-grid">
 <div class="news-item hn">
 <h3><a href="https://arcprize.org/arc-agi/3" target="_blank" rel="noopener">ARC-AGI-3</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 129 pts · <a href="https://news.ycombinator.com/item?id=47521150">94 comments</a></div>
-</div>
-<div class="news-item hn">
-<h3><a href="https://www.claudescode.dev/?window=since_launch" target="_blank" rel="noopener">90% of Claude-linked output going to GitHub repos w <2 stars</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 61 pts · <a href="https://news.ycombinator.com/item?id=47521157">37 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 313 pts · <a href="https://news.ycombinator.com/item?id=47521150">199 comments</a></div>
 </div>
 <div class="news-item hn">
 <h3><a href="https://rpastro.square.site/s/stories/phm" target="_blank" rel="noopener">My astrophotography in the movie Project Hail Mary</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 614 pts · <a href="https://news.ycombinator.com/item?id=47477873">168 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 765 pts · <a href="https://news.ycombinator.com/item?id=47477873">190 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://lapcatsoftware.com/articles/2026/3/11.html" target="_blank" rel="noopener">Apple randomly closes bug reports unless you "verify" the bug remains unfixed</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 149 pts · <a href="https://news.ycombinator.com/item?id=47521876">72 comments</a></div>
+<h3><a href="https://statmodeling.stat.columbia.edu/2026/03/24/false-claims-in-a-published-no-corrections-no-consequences-welcome-to-the-business-school/" target="_blank" rel="noopener">False claims in a widely-cited paper</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 201 pts · <a href="https://news.ycombinator.com/item?id=47525378">68 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://ente.com/blog/ensu/" target="_blank" rel="noopener">Ensu – Ente’s Local LLM app</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 310 pts · <a href="https://news.ycombinator.com/item?id=47516650">140 comments</a></div>
+<h3><a href="https://github.com/lightfeed/extractor" target="_blank" rel="noopener">Show HN: Robust LLM Extractor for Websites in TypeScript</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 9 pts · <a href="https://news.ycombinator.com/item?id=47526486">1 comments</a></div>
+</div>
+<div class="news-item hn">
+<h3><a href="https://www.claudescode.dev/?window=since_launch" target="_blank" rel="noopener">90% of Claude-linked output going to GitHub repos w <2 stars</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 221 pts · <a href="https://news.ycombinator.com/item?id=47521157">134 comments</a></div>
 </div>
 </div>
 
@@ -116,35 +116,36 @@ date: 2026-03-26
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=h3AtWdeu_G0" target="_blank" rel="noopener">Bernie vs. Claude</a></h3>
 <p>I spoke to Anthropic's AI agent Claude about AI collecting massive amounts of personal data and how that information is being ...</p>
-<div class="card-meta"><span class="source-badge">Senator Bernie Sanders</span> · <span class="view-count">2.7M views</span> · 2026-03-19</div>
+<div class="card-meta"><span class="source-badge">Senator Bernie Sanders</span> · <span class="view-count">2.8M views</span> · 2026-03-19</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=r6P0u5v4rdo" target="_blank" rel="noopener">It’s not AI, we just look a lot alike! So let’s go (which was the point of the video)</a></h3>
 <div class="card-meta"><span class="source-badge">Dan Povenmire</span> · <span class="view-count">2.3M views</span> · 2026-03-19</div>
 </div>
 <div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=S_eHBog3b2s" target="_blank" rel="noopener">We Bought Every AI Scam Ad</a></h3>
-<p>how do they get away with this? I'm giving away a MacBook Air to one of you lot. All you have to do to enter is: 1. ⁠Sign up to ...</p>
-<div class="card-meta"><span class="source-badge">a bit more willne</span> · <span class="view-count">948K views</span> · 2026-03-23</div>
+<h3><a href="https://www.youtube.com/watch?v=su-raSdPwWc" target="_blank" rel="noopener">₹500 for a Propaganda Film or for your Future?</a></h3>
+<p>Join the AI Masterclass here: https://academy.dhruvrathee.com/aimasterclass The fastest and most affordable way to upskill ...</p>
+<div class="card-meta"><span class="source-badge">Dhruv Rathee Shorts</span> · <span class="view-count">1.5M views</span> · 2026-03-21</div>
 </div>
 <div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=wCUaFkK7h-o" target="_blank" rel="noopener">#1 AI study too is… #study #studentlife #college #schoolhacks</a></h3>
-<div class="card-meta"><span class="source-badge">Study With Sher </span> · <span class="view-count">485K views</span> · 2026-03-20</div>
+<h3><a href="https://www.youtube.com/watch?v=S_eHBog3b2s" target="_blank" rel="noopener">We Bought Every AI Scam Ad</a></h3>
+<p>how do they get away with this? I'm giving away a MacBook Air to one of you lot. All you have to do to enter is: 1. ⁠Sign up to ...</p>
+<div class="card-meta"><span class="source-badge">a bit more willne</span> · <span class="view-count">1.0M views</span> · 2026-03-23</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=vE5QKXOclBw" target="_blank" rel="noopener">Apple AI vs Galaxy AI 🥊 Who has the Smartest Phone in 2026?</a></h3>
 <p>The ultimate AI phone battle is here. Samsung S26 Ultra vs iPhone 17 Pro Max — which one is actually smarter? From next-gen ...</p>
-<div class="card-meta"><span class="source-badge">TA Tech Tips</span> · <span class="view-count">393K views</span> · 2026-03-20</div>
+<div class="card-meta"><span class="source-badge">TA Tech Tips</span> · <span class="view-count">404K views</span> · 2026-03-20</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=n-VwC4-BfTM" target="_blank" rel="noopener">ChatGPT vs Gemini vs Claude Make Clash Royale From Scratch</a></h3>
 <p>I put ChatGPT 5.4 up against Google Gemini 3.1 and Claude Opus 4.6 to see who can produce Clash Royale from scratch better.</p>
-<div class="card-meta"><span class="source-badge">tef</span> · <span class="view-count">39K views</span> · 2026-03-21</div>
+<div class="card-meta"><span class="source-badge">tef</span> · <span class="view-count">41K views</span> · 2026-03-21</div>
 </div>
 </div>
 
 <div class="page-footer">
-Last updated: 2026-03-26 06:42 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
+Last updated: 2026-03-26 14:09 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
 </div>
 
 </div>
