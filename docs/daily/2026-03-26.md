@@ -18,12 +18,13 @@ date: 2026-03-26
 <div class="trend-tags">
 <span class="trend-tag hot">Claude</span>
 <span class="trend-tag hot">Meta</span>
-<span class="trend-tag hot">ChatGPT</span>
+<span class="trend-tag hot">LLM</span>
+<span class="trend-tag">ChatGPT</span>
 <span class="trend-tag">Gemini</span>
 <span class="trend-tag">Google</span>
 <span class="trend-tag">Apple</span>
 <span class="trend-tag">AGI</span>
-<span class="trend-tag">LLM</span>
+<span class="trend-tag">Sora</span>
 </div>
 
 <p class="section-label">HIGHLIGHTS</p>
@@ -90,38 +91,29 @@ date: 2026-03-26
 <p class="section-label">COMMUNITY</p>
 <div class="news-grid">
 <div class="news-item hn">
+<h3><a href="https://www.revolutioninai.com/2026/03/%20chatgpt-gpt-54-mini-silent-switch-march-2026.html" target="_blank" rel="noopener">Why Sora Failed: $15M/day inference cost vs. $2.1M lifetime revenue</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 11 pts · <a href="https://news.ycombinator.com/item?id=47528380">3 comments</a></div>
+</div>
+<div class="news-item hn">
+<h3><a href="https://www.metropolitanreview.org/p/the-last-contract" target="_blank" rel="noopener">The Last Contract: William T. Vollmann's Battle to Publish an Epic (2025)</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 5 pts · <a href="https://news.ycombinator.com/item?id=47526473">0 comments</a></div>
+</div>
+<div class="news-item hn">
 <h3><a href="https://arcprize.org/arc-agi/3" target="_blank" rel="noopener">ARC-AGI-3</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 313 pts · <a href="https://news.ycombinator.com/item?id=47521150">199 comments</a></div>
-</div>
-<div class="news-item hn">
-<h3><a href="https://rpastro.square.site/s/stories/phm" target="_blank" rel="noopener">My astrophotography in the movie Project Hail Mary</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 765 pts · <a href="https://news.ycombinator.com/item?id=47477873">190 comments</a></div>
-</div>
-<div class="news-item hn">
-<h3><a href="https://statmodeling.stat.columbia.edu/2026/03/24/false-claims-in-a-published-no-corrections-no-consequences-welcome-to-the-business-school/" target="_blank" rel="noopener">False claims in a widely-cited paper</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 201 pts · <a href="https://news.ycombinator.com/item?id=47525378">68 comments</a></div>
-</div>
-<div class="news-item hn">
-<h3><a href="https://github.com/lightfeed/extractor" target="_blank" rel="noopener">Show HN: Robust LLM Extractor for Websites in TypeScript</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 9 pts · <a href="https://news.ycombinator.com/item?id=47526486">1 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 393 pts · <a href="https://news.ycombinator.com/item?id=47521150">261 comments</a></div>
 </div>
 <div class="news-item hn">
 <h3><a href="https://www.claudescode.dev/?window=since_launch" target="_blank" rel="noopener">90% of Claude-linked output going to GitHub repos w <2 stars</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 221 pts · <a href="https://news.ycombinator.com/item?id=47521157">134 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 286 pts · <a href="https://news.ycombinator.com/item?id=47521157">173 comments</a></div>
+</div>
+<div class="news-item hn">
+<h3><a href="https://github.com/lightfeed/extractor" target="_blank" rel="noopener">Show HN: Robust LLM Extractor for Websites in TypeScript</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 42 pts · <a href="https://news.ycombinator.com/item?id=47526486">32 comments</a></div>
 </div>
 </div>
 
 <p class="section-label">TRENDING VIDEOS</p>
 <div class="news-grid">
-<div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=h3AtWdeu_G0" target="_blank" rel="noopener">Bernie vs. Claude</a></h3>
-<p>I spoke to Anthropic's AI agent Claude about AI collecting massive amounts of personal data and how that information is being ...</p>
-<div class="card-meta"><span class="source-badge">Senator Bernie Sanders</span> · <span class="view-count">2.8M views</span> · 2026-03-19</div>
-</div>
-<div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=r6P0u5v4rdo" target="_blank" rel="noopener">It’s not AI, we just look a lot alike! So let’s go (which was the point of the video)</a></h3>
-<div class="card-meta"><span class="source-badge">Dan Povenmire</span> · <span class="view-count">2.3M views</span> · 2026-03-19</div>
-</div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=su-raSdPwWc" target="_blank" rel="noopener">₹500 for a Propaganda Film or for your Future?</a></h3>
 <p>Join the AI Masterclass here: https://academy.dhruvrathee.com/aimasterclass The fastest and most affordable way to upskill ...</p>
@@ -135,7 +127,17 @@ date: 2026-03-26
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=vE5QKXOclBw" target="_blank" rel="noopener">Apple AI vs Galaxy AI 🥊 Who has the Smartest Phone in 2026?</a></h3>
 <p>The ultimate AI phone battle is here. Samsung S26 Ultra vs iPhone 17 Pro Max — which one is actually smarter? From next-gen ...</p>
-<div class="card-meta"><span class="source-badge">TA Tech Tips</span> · <span class="view-count">404K views</span> · 2026-03-20</div>
+<div class="card-meta"><span class="source-badge">TA Tech Tips</span> · <span class="view-count">410K views</span> · 2026-03-20</div>
+</div>
+<div class="news-item youtube">
+<h3><a href="https://www.youtube.com/watch?v=4miVSIH5LHU" target="_blank" rel="noopener">AI Fruit love island is the fastest growing TikTok account ever… #c#carterpcstech #fruitloveisland</a></h3>
+<p>AI Fruit love island is the fastest growing TikTok account ever… #c#carterpcstech #fruitloveisland #ai.</p>
+<div class="card-meta"><span class="source-badge">CarterPCs</span> · <span class="view-count">364K views</span> · 2026-03-23</div>
+</div>
+<div class="news-item youtube">
+<h3><a href="https://www.youtube.com/watch?v=KVOEroAkZ2Y" target="_blank" rel="noopener">Senator asked AI why our data is collected… the answer is brutal 😲 #shorts #senator #claude</a></h3>
+<p>They asked AI why your data is collected… the answer is brutal “It's about profit.” Not privacy. Not safety. They study you… to ...</p>
+<div class="card-meta"><span class="source-badge">Thinknomy®</span> · <span class="view-count">334K views</span> · 2026-03-23</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=n-VwC4-BfTM" target="_blank" rel="noopener">ChatGPT vs Gemini vs Claude Make Clash Royale From Scratch</a></h3>
@@ -145,7 +147,7 @@ date: 2026-03-26
 </div>
 
 <div class="page-footer">
-Last updated: 2026-03-26 14:09 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
+Last updated: 2026-03-26 19:03 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
 </div>
 
 </div>
