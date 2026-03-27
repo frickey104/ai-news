@@ -18,12 +18,12 @@ date: 2026-03-27
 <div class="trend-tags">
 <span class="trend-tag hot">Claude</span>
 <span class="trend-tag hot">Gemini</span>
-<span class="trend-tag hot">Anthropic</span>
-<span class="trend-tag">ChatGPT</span>
-<span class="trend-tag">Agent</span>
+<span class="trend-tag hot">ChatGPT</span>
+<span class="trend-tag">Anthropic</span>
 <span class="trend-tag">OpenAI</span>
 <span class="trend-tag">Google</span>
-<span class="trend-tag">AGI</span>
+<span class="trend-tag">LLM</span>
+<span class="trend-tag">Agent</span>
 </div>
 
 <p class="section-label">HIGHLIGHTS</p>
@@ -90,24 +90,24 @@ date: 2026-03-27
 <p class="section-label">COMMUNITY</p>
 <div class="news-grid">
 <div class="news-item hn">
-<h3><a href="https://code.claude.com/docs/en/web-scheduled-tasks" target="_blank" rel="noopener">Schedule Claude Code tasks on the web</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 12 pts · <a href="https://news.ycombinator.com/item?id=47539188">2 comments</a></div>
-</div>
-<div class="news-item hn">
 <h3><a href="https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/" target="_blank" rel="noopener">Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 162 pts · <a href="https://news.ycombinator.com/item?id=47536761">61 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 245 pts · <a href="https://news.ycombinator.com/item?id=47536761">75 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://www.symbolica.ai/blog/arc-agi-3" target="_blank" rel="noopener">From 0% to 36% on Day 1 of ARC-AGI-3</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 55 pts · <a href="https://news.ycombinator.com/item?id=47538078">21 comments</a></div>
+<h3><a href="https://nibblestew.blogspot.com/2026/03/everything-old-is-new-again-memory.html" target="_blank" rel="noopener">Everything old is new again: memory optimization</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 19 pts · <a href="https://news.ycombinator.com/item?id=47493246">1 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://www.cnn.com/2026/03/26/business/anthropic-pentagon-injunction-supply-chain-risk" target="_blank" rel="noopener">Judge blocks Pentagon effort to 'punish' Anthropic with supply chain risk label</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 334 pts · <a href="https://news.ycombinator.com/item?id=47537228">177 comments</a></div>
+<h3><a href="https://github.com/itigges22/ATLAS" target="_blank" rel="noopener">$500 GPU outperforms Claude Sonnet on coding benchmarks</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 252 pts · <a href="https://news.ycombinator.com/item?id=47533297">121 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://www.trychroma.com/research/context-1" target="_blank" rel="noopener">Chroma Context-1: Training a Self-Editing Search Agent</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 26 pts · <a href="https://news.ycombinator.com/item?id=47534564">1 comments</a></div>
+<h3><a href="https://futuresearch.ai/blog/litellm-attack-transcript/" target="_blank" rel="noopener">My minute-by-minute response to the LiteLLM malware attack</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 369 pts · <a href="https://news.ycombinator.com/item?id=47531967">139 comments</a></div>
+</div>
+<div class="news-item hn">
+<h3><a href="https://www.reco.ai/blog/we-rewrote-jsonata-with-ai" target="_blank" rel="noopener">We rewrote JSONata with AI in a day, saved $500k/year</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 159 pts · <a href="https://news.ycombinator.com/item?id=47536712">145 comments</a></div>
 </div>
 </div>
 
@@ -124,29 +124,29 @@ date: 2026-03-27
 <div class="card-meta"><span class="source-badge">a bit more willne</span> · <span class="view-count">1.1M views</span> · 2026-03-23</div>
 </div>
 <div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=LKOBGKhEXGM" target="_blank" rel="noopener">Top 5 Funniest Socrates AI Moments  #fyp</a></h3>
-<p>The Socrates chaos just won't stop Welcome to Part 3 of the viral trend where Socrates somehow became the most annoying ...</p>
-<div class="card-meta"><span class="source-badge">Daily Dose of Meme Ranking</span> · <span class="view-count">734K views</span> · 2026-03-20</div>
+<h3><a href="https://www.youtube.com/watch?v=T7NCB-RN_TY" target="_blank" rel="noopener">নেকড়েকে মাংস খাওয়া শেখালো কে? 🍗😂</a></h3>
+<p>নেকড়েকে মাংস খাওয়া শেখালো কে? Welcome to THIS'S NUR – the ultimate hub for AI, game, ...</p>
+<div class="card-meta"><span class="source-badge">THIS'S NUR</span> · <span class="view-count">698K views</span> · 2026-03-25</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=Ktscy4elVy4" target="_blank" rel="noopener">The Origins of Caine&#39;s AI in The Amazing Digital Circus #glitchproductions</a></h3>
 <p>digitalcircus #animation #glitch.</p>
-<div class="card-meta"><span class="source-badge">Unhelpful Commentary</span> · <span class="view-count">500K views</span> · 2026-03-21</div>
+<div class="card-meta"><span class="source-badge">Unhelpful Commentary</span> · <span class="view-count">502K views</span> · 2026-03-21</div>
 </div>
 <div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=T7NCB-RN_TY" target="_blank" rel="noopener">নেকড়েকে মাংস খাওয়া শেখালো কে? 🍗😂</a></h3>
-<p>নেকড়েকে মাংস খাওয়া শেখালো কে? Welcome to THIS'S NUR – the ultimate hub for AI, game, ...</p>
-<div class="card-meta"><span class="source-badge">THIS'S NUR</span> · <span class="view-count">472K views</span> · 2026-03-25</div>
+<h3><a href="https://www.youtube.com/watch?v=NhUEAOrTnPc" target="_blank" rel="noopener">Perdóname Skibidi Toilet… esto es PEOR 💀🍉</a></h3>
+<p>La humanidad está en decadencia? En TikTok acaba de explotar una cuenta que rompe TODOS los récords… con una serie ...</p>
+<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">469K views</span> · 2026-03-24</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=n-VwC4-BfTM" target="_blank" rel="noopener">ChatGPT vs Gemini vs Claude Make Clash Royale From Scratch</a></h3>
 <p>I put ChatGPT 5.4 up against Google Gemini 3.1 and Claude Opus 4.6 to see who can produce Clash Royale from scratch better.</p>
-<div class="card-meta"><span class="source-badge">tef</span> · <span class="view-count">44K views</span> · 2026-03-21</div>
+<div class="card-meta"><span class="source-badge">tef</span> · <span class="view-count">45K views</span> · 2026-03-21</div>
 </div>
 </div>
 
 <div class="page-footer">
-Last updated: 2026-03-27 14:10 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
+Last updated: 2026-03-27 18:57 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
 </div>
 
 </div>
