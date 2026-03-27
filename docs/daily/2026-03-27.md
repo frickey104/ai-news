@@ -1,6 +1,6 @@
 ---
 title: "AI NEWS | 2026-03-27"
-description: "2026年3月27日 の生成AI最新ニュース (17件)"
+description: "2026年3月27日 の生成AI最新ニュース (21件)"
 date: 2026-03-27
 ---
 
@@ -10,58 +10,79 @@ date: 2026-03-27
 <h1 class="page-title">AI NEWS</h1>
 <p class="page-date">2026年3月27日</p>
 <div class="page-stats">
-<span class="stat">17 articles</span>
+<span class="stat">21 articles</span>
 <span class="stat">Updated daily 6:00 AM JST</span>
 </div></div>
 
 <p class="section-label">TODAY'S KEYWORDS</p>
 <div class="trend-tags">
-<span class="trend-tag hot">Apple</span>
 <span class="trend-tag hot">Claude</span>
-<span class="trend-tag hot">LLM</span>
+<span class="trend-tag hot">Gemini</span>
+<span class="trend-tag hot">Anthropic</span>
 <span class="trend-tag">ChatGPT</span>
-<span class="trend-tag">Gemini</span>
+<span class="trend-tag">Agent</span>
+<span class="trend-tag">OpenAI</span>
 <span class="trend-tag">Google</span>
-<span class="trend-tag">RAG</span>
+<span class="trend-tag">AGI</span>
 </div>
 
 <p class="section-label">HIGHLIGHTS</p>
 <div class="highlights-grid">
 <div class="highlight-card">
 <div class="highlight-badge">PICK UP</div>
-<h3><a href="https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud" target="_blank" rel="noopener">Railway secures $100 million to challenge AWS with AI-native cloud infrastructure</a></h3>
-<p>Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B...</p>
-<div class="card-meta"><span class="source-badge">VentureBeat</span> · Thu, 22 Ja</div>
+<h3><a href="https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/" target="_blank" rel="noopener">Anthropic wins injunction against Trump administration over Defense Department saga</a></h3>
+<p>A federal judge has ordered that the Trump administration rescind recent restrictions it placed on the AI company.</p>
+<div class="card-meta"><span class="source-badge">TechCrunch</span> · Fri, 27 Ma</div>
 </div>
 <div class="highlight-card">
 <div class="highlight-badge">PICK UP</div>
-<h3><a href="https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free" target="_blank" rel="noopener">Claude Code costs up to $200 a month. Goose does the same thing for free.</a></h3>
-<p>The artificial intelligence coding revolution comes with a catch: it's expensive.Claude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the...</p>
-<div class="card-meta"><span class="source-badge">VentureBeat</span> · Mon, 19 Ja</div>
+<h3><a href="https://techcrunch.com/2026/03/26/you-can-now-transfer-your-chats-and-personal-information-from-other-chatbots-directly-into-gemini/" target="_blank" rel="noopener">You can now transfer your chats and personal information from other chatbots directly into Gemini</a></h3>
+<p>Google is launching "switching tools" that, just as it sounds, will make it easier for users of other chatbots to switch to Gemini.</p>
+<div class="card-meta"><span class="source-badge">TechCrunch</span> · Thu, 26 Ma</div>
 </div>
 <div class="highlight-card">
 <div class="highlight-badge">PICK UP</div>
-<h3><a href="https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai" target="_blank" rel="noopener">Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews</a></h3>
-<p>Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent...</p>
-<div class="card-meta"><span class="source-badge">VentureBeat</span> · Fri, 16 Ja</div>
+<h3><a href="https://techcrunch.com/2026/03/26/wikipedia-cracks-down-on-the-use-of-ai-in-article-writing/" target="_blank" rel="noopener">Wikipedia cracks down on the use of AI in article writing</a></h3>
+<p>The site, whose policies are subject to change, has struggled with the issue of AI-generated writing.</p>
+<div class="card-meta"><span class="source-badge">TechCrunch</span> · Thu, 26 Ma</div>
 </div>
 </div>
 
 <p class="section-label">AI NEWS</p>
 <div class="news-grid">
 <div class="news-item">
-<h3><a href="https://www.theverge.com/tech/902048/apple-siri-ai-chatbot-update-ios-27" target="_blank" rel="noopener">Apple will reportedly allow other AI chatbots to plug into Siri</a></h3>
-<p>Apple's iOS 27 update will allow users to choose the AI chatbot they want to link with Siri. That's according to a report from Bloomberg's Mark Gurman, who says third-party chatbots downloaded from...</p>
+<h3><a href="https://techcrunch.com/2026/03/26/openai-abandons-yet-another-side-quest-chatgpts-erotic-mode/" target="_blank" rel="noopener">OpenAI abandons yet another side quest: ChatGPT’s erotic mode</a></h3>
+<p>It's only the latest of several side projects that the AI startup has ditched over the past week.</p>
+<div class="card-meta"><span class="source-badge">TechCrunch</span> · Thu, 26 Ma</div>
+</div>
+<div class="news-item">
+<h3><a href="https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud" target="_blank" rel="noopener">Railway secures $100 million to challenge AWS with AI-native cloud infrastructure</a></h3>
+<p>Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B...</p>
+<div class="card-meta"><span class="source-badge">VentureBeat</span> · Thu, 22 Ja</div>
+</div>
+<div class="news-item">
+<h3><a href="https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free" target="_blank" rel="noopener">Claude Code costs up to $200 a month. Goose does the same thing for free.</a></h3>
+<p>The artificial intelligence coding revolution comes with a catch: it's expensive.Claude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the...</p>
+<div class="card-meta"><span class="source-badge">VentureBeat</span> · Mon, 19 Ja</div>
+</div>
+<div class="news-item">
+<h3><a href="https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai" target="_blank" rel="noopener">Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews</a></h3>
+<p>Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent...</p>
+<div class="card-meta"><span class="source-badge">VentureBeat</span> · Fri, 16 Ja</div>
+</div>
+<div class="news-item">
+<h3><a href="https://www.theverge.com/ai-artificial-intelligence/902149/anthropic-dod-pentagon-lawsuit-supply-chain-risk-injunction" target="_blank" rel="noopener">Judge sides with Anthropic to temporarily block the Pentagon&#8217;s ban</a></h3>
+<p>After Anthropic's weeks-long standoff with the Pentagon, the company won one milestone: A judge granted Anthropic a preliminary injunction in its lawsuit, which sought to reverse its government...</p>
 <div class="card-meta"><span class="source-badge">The Verge</span> · 2026-03-26</div>
 </div>
 <div class="news-item">
-<h3><a href="https://www.theverge.com/report/902005/apple-ai-playlist-playground-bad-at-music" target="_blank" rel="noopener">Apple’s AI Playlist Playground is bad at music</a></h3>
-<p>Apple Music: "What do you want to hear?" Me: "Atmospheric instrumental black metal to write to." Apple Music: "Here's three metal songs with vocals, a field recording, an ambient electronic track,...</p>
+<h3><a href="https://www.theverge.com/policy/902140/david-sacks-out-ai-crypto-czar" target="_blank" rel="noopener">David Sacks is no longer the White House AI and Crypto Czar</a></h3>
+<p>David Sacks, the venture capitalist and tech billionaire who'd become Silicon Valley's primary advocate inside the White House and a key architect of its aggressive AI policy initiatives, revealed on...</p>
 <div class="card-meta"><span class="source-badge">The Verge</span> · 2026-03-26</div>
 </div>
 <div class="news-item">
-<h3><a href="https://www.theverge.com/tech/901816/google-search-live-ai-assistant-expansion" target="_blank" rel="noopener">Google&#8217;s &#8216;live&#8217; AI search assistant can handle conversations in dozens more languages</a></h3>
-<p>Google is expanding access to Search Live, a feature that lets you search for information using your voice and camera. The AI search assistant is now available in more than 200 countries and...</p>
+<h3><a href="https://www.theverge.com/ai-artificial-intelligence/902085/google-gemini-import-memory-chat-history" target="_blank" rel="noopener">Google is making it easier to import another AI’s memory into Gemini</a></h3>
+<p>After Anthropic updated its tool for copying another AI's memory into Claude earlier this month, Google Gemini is rolling out new "Import Memory" and "Import Chat History" features on desktop that...</p>
 <div class="card-meta"><span class="source-badge">The Verge</span> · 2026-03-26</div>
 </div>
 </div>
@@ -69,24 +90,24 @@ date: 2026-03-27
 <p class="section-label">COMMUNITY</p>
 <div class="news-grid">
 <div class="news-item hn">
-<h3><a href="https://futuresearch.ai/blog/litellm-attack-transcript/" target="_blank" rel="noopener">My minute-by-minute response to the LiteLLM malware attack</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 228 pts · <a href="https://news.ycombinator.com/item?id=47531967">108 comments</a></div>
+<h3><a href="https://code.claude.com/docs/en/web-scheduled-tasks" target="_blank" rel="noopener">Schedule Claude Code tasks on the web</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 12 pts · <a href="https://news.ycombinator.com/item?id=47539188">2 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://www.theguardian.com/technology/2026/mar/26/new-york-hospitals-palantir-ai" target="_blank" rel="noopener">New York City hospitals drop Palantir as controversial AI firm expands in UK</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 56 pts · <a href="https://news.ycombinator.com/item?id=47535371">11 comments</a></div>
+<h3><a href="https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/" target="_blank" rel="noopener">Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 162 pts · <a href="https://news.ycombinator.com/item?id=47536761">61 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://en.andros.dev/blog/aa31d744/from-zero-to-a-rag-system-successes-and-failures/" target="_blank" rel="noopener">From zero to a RAG system: successes and failures</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 253 pts · <a href="https://news.ycombinator.com/item?id=47499356">78 comments</a></div>
+<h3><a href="https://www.symbolica.ai/blog/arc-agi-3" target="_blank" rel="noopener">From 0% to 36% on Day 1 of ARC-AGI-3</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 55 pts · <a href="https://news.ycombinator.com/item?id=47538078">21 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://john.regehr.org/writing/zero_dof_programming.html" target="_blank" rel="noopener">Taming LLMs: Using Executable Oracles to Prevent Bad Code</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 21 pts · <a href="https://news.ycombinator.com/item?id=47533555">7 comments</a></div>
+<h3><a href="https://www.cnn.com/2026/03/26/business/anthropic-pentagon-injunction-supply-chain-risk" target="_blank" rel="noopener">Judge blocks Pentagon effort to 'punish' Anthropic with supply chain risk label</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 334 pts · <a href="https://news.ycombinator.com/item?id=47537228">177 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://www.lrb.co.uk/the-paper/v48/n06/andrew-cockburn/beware-the-mattress" target="_blank" rel="noopener">The Secret History of European Intelligence and Mossad's Assassination Campaign</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 3 pts · <a href="https://news.ycombinator.com/item?id=47534830">1 comments</a></div>
+<h3><a href="https://www.trychroma.com/research/context-1" target="_blank" rel="noopener">Chroma Context-1: Training a Self-Editing Search Agent</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 26 pts · <a href="https://news.ycombinator.com/item?id=47534564">1 comments</a></div>
 </div>
 </div>
 
@@ -105,27 +126,27 @@ date: 2026-03-27
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=LKOBGKhEXGM" target="_blank" rel="noopener">Top 5 Funniest Socrates AI Moments  #fyp</a></h3>
 <p>The Socrates chaos just won't stop Welcome to Part 3 of the viral trend where Socrates somehow became the most annoying ...</p>
-<div class="card-meta"><span class="source-badge">Daily Dose of Meme Ranking</span> · <span class="view-count">720K views</span> · 2026-03-20</div>
+<div class="card-meta"><span class="source-badge">Daily Dose of Meme Ranking</span> · <span class="view-count">734K views</span> · 2026-03-20</div>
 </div>
 <div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=vE5QKXOclBw" target="_blank" rel="noopener">Apple AI vs Galaxy AI 🥊 Who has the Smartest Phone in 2026?</a></h3>
-<p>The ultimate AI phone battle is here. Samsung S26 Ultra vs iPhone 17 Pro Max — which one is actually smarter? From next-gen ...</p>
-<div class="card-meta"><span class="source-badge">TA Tech Tips</span> · <span class="view-count">518K views</span> · 2026-03-20</div>
+<h3><a href="https://www.youtube.com/watch?v=Ktscy4elVy4" target="_blank" rel="noopener">The Origins of Caine&#39;s AI in The Amazing Digital Circus #glitchproductions</a></h3>
+<p>digitalcircus #animation #glitch.</p>
+<div class="card-meta"><span class="source-badge">Unhelpful Commentary</span> · <span class="view-count">500K views</span> · 2026-03-21</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=T7NCB-RN_TY" target="_blank" rel="noopener">নেকড়েকে মাংস খাওয়া শেখালো কে? 🍗😂</a></h3>
 <p>নেকড়েকে মাংস খাওয়া শেখালো কে? Welcome to THIS'S NUR – the ultimate hub for AI, game, ...</p>
-<div class="card-meta"><span class="source-badge">THIS'S NUR</span> · <span class="view-count">419K views</span> · 2026-03-25</div>
+<div class="card-meta"><span class="source-badge">THIS'S NUR</span> · <span class="view-count">472K views</span> · 2026-03-25</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=n-VwC4-BfTM" target="_blank" rel="noopener">ChatGPT vs Gemini vs Claude Make Clash Royale From Scratch</a></h3>
 <p>I put ChatGPT 5.4 up against Google Gemini 3.1 and Claude Opus 4.6 to see who can produce Clash Royale from scratch better.</p>
-<div class="card-meta"><span class="source-badge">tef</span> · <span class="view-count">43K views</span> · 2026-03-21</div>
+<div class="card-meta"><span class="source-badge">tef</span> · <span class="view-count">44K views</span> · 2026-03-21</div>
 </div>
 </div>
 
 <div class="page-footer">
-Last updated: 2026-03-27 06:35 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
+Last updated: 2026-03-27 14:10 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
 </div>
 
 </div>
