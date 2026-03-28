@@ -23,11 +23,16 @@ date: 2026-03-28
 <span class="trend-tag">Gemini</span>
 <span class="trend-tag">Anthropic</span>
 <span class="trend-tag">Meta</span>
-<span class="trend-tag">Agent</span>
 </div>
 
 <p class="section-label">HIGHLIGHTS</p>
 <div class="highlights-grid">
+<div class="highlight-card">
+<div class="highlight-badge">PICK UP</div>
+<h3><a href="https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/" target="_blank" rel="noopener">Why SoftBank’s new $40B loan points to a 2026 OpenAI IPO</a></h3>
+<p>Wall Street giants JPMorgan and Goldman Sachs are extending a 12-month, unsecured loan to the Japanese conglomerate.</p>
+<div class="card-meta"><span class="source-badge">TechCrunch</span> · Fri, 27 Ma</div>
+</div>
 <div class="highlight-card">
 <div class="highlight-badge">PICK UP</div>
 <h3><a href="https://techcrunch.com/2026/03/27/memory-chip-giant-sk-hynix-could-help-end-rammageddon-with-blockbuster-us-ipo/" target="_blank" rel="noopener">Memory chip giant SK hynix could help end ‘RAMmageddon’ with blockbuster US IPO</a></h3>
@@ -40,19 +45,13 @@ date: 2026-03-28
 <p>When an 82-year-old Kentucky woman was offered $26 million from an AI company that wanted to build a data center on her land, she said no. Sure, that same company can try to rezone 2,000 acres nearby...</p>
 <div class="card-meta"><span class="source-badge">TechCrunch</span> · Fri, 27 Ma</div>
 </div>
-<div class="highlight-card">
-<div class="highlight-badge">PICK UP</div>
-<h3><a href="https://techcrunch.com/video/openai-shuts-down-sora-while-meta-gets-shut-out-in-court/" target="_blank" rel="noopener">OpenAI shuts down Sora while Meta gets shut out in court</a></h3>
-<p>When an 82-year-old Kentucky woman was offered $26 million from an AI company that wanted to build a data center on her land, she said no. Sure, that same company can try to rezone 2,000 acres nearby...</p>
-<div class="card-meta"><span class="source-badge">TechCrunch</span> · Fri, 27 Ma</div>
-</div>
 </div>
 
 <p class="section-label">AI NEWS</p>
 <div class="news-grid">
 <div class="news-item">
-<h3><a href="https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/" target="_blank" rel="noopener">David Sacks is done as AI czar — here’s what he’s doing instead</a></h3>
-<p>Sacks will be much further from the power center in Washington than since the outset of this second Trump administration.</p>
+<h3><a href="https://techcrunch.com/video/openai-shuts-down-sora-while-meta-gets-shut-out-in-court/" target="_blank" rel="noopener">OpenAI shuts down Sora while Meta gets shut out in court</a></h3>
+<p>When an 82-year-old Kentucky woman was offered $26 million from an AI company that wanted to build a data center on her land, she said no. Sure, that same company can try to rezone 2,000 acres nearby...</p>
 <div class="card-meta"><span class="source-badge">TechCrunch</span> · Fri, 27 Ma</div>
 </div>
 <div class="news-item">
@@ -90,24 +89,24 @@ date: 2026-03-28
 <p class="section-label">COMMUNITY</p>
 <div class="news-grid">
 <div class="news-item hn">
-<h3><a href="https://news.ycombinator.com/item?id=47548243" target="_blank" rel="noopener">If you don't opt out by Apr 24 GitHub will train on your private repos</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 179 pts · <a href="https://news.ycombinator.com/item?id=47548243">68 comments</a></div>
-</div>
-<div class="news-item hn">
 <h3><a href="https://blog.dailydoseofds.com/p/anatomy-of-the-claude-folder" target="_blank" rel="noopener">Anatomy of the .claude/ folder</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 311 pts · <a href="https://news.ycombinator.com/item?id=47543139">156 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 413 pts · <a href="https://news.ycombinator.com/item?id=47543139">198 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://github.com/outworked/outworked/releases/tag/v0.3.0" target="_blank" rel="noopener">Show HN: Open-Source Animal Crossing–Style UI for Claude Code Agents</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 35 pts · <a href="https://news.ycombinator.com/item?id=47545642">26 comments</a></div>
+<h3><a href="https://arstechnica.com/tech-policy/2026/03/doj-confirms-fbi-director-kash-patels-personal-email-was-hacked/" target="_blank" rel="noopener">DOJ confirms FBI Director Kash Patel's personal email was hacked</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 243 pts · <a href="https://news.ycombinator.com/item?id=47548670">125 comments</a></div>
 </div>
 <div class="news-item hn">
 <h3><a href="https://jacobfilipp.com/yu/" target="_blank" rel="noopener">21,864 Yugoslavian .yu domains</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 59 pts · <a href="https://news.ycombinator.com/item?id=47524051">81 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 81 pts · <a href="https://news.ycombinator.com/item?id=47524051">104 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://www.theguardian.com/news/2026/mar/26/ai-got-the-blame-for-the-iran-school-bombing-the-truth-is-far-more-worrying" target="_blank" rel="noopener">AI got the blame for the Iran school bombing. The truth is more worrying</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 274 pts · <a href="https://news.ycombinator.com/item?id=47544980">234 comments</a></div>
+<h3><a href="https://nibblestew.blogspot.com/2026/03/everything-old-is-new-again-memory.html" target="_blank" rel="noopener">Everything old is new again: memory optimization</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 191 pts · <a href="https://news.ycombinator.com/item?id=47493246">134 comments</a></div>
+</div>
+<div class="news-item hn">
+<h3><a href="https://namespace.so/blog/series-a" target="_blank" rel="noopener">Namespace: We've raised $23M to build the compute layer for code</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 17 pts · <a href="https://news.ycombinator.com/item?id=47546998">4 comments</a></div>
 </div>
 </div>
 
@@ -116,36 +115,37 @@ date: 2026-03-28
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=J1tvabPH9EY" target="_blank" rel="noopener">VAMOS PODER FALAR COM ANIMAIS!😱 #ciencia #inteligenciaartificial #ia</a></h3>
 <p>Cientistas já estão usando inteligência artificial pra decifrar os sons dos animais — e começaram logo com os golfinhos, que são ...</p>
-<div class="card-meta"><span class="source-badge">Onerdinha</span> · <span class="view-count">374K views</span> · 2026-03-23</div>
-</div>
-<div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=-ibxaS8NQGg" target="_blank" rel="noopener">¿Se ROBARON Digital Circus? 😨 Esto está pasando en Amazon…</a></h3>
-<p>Sabías que alguien podría haberse “robado” The Amazing Digital Circus? En Amazon aparecieron libros sospechosamente ...</p>
-<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">290K views</span> · 2026-03-24</div>
+<div class="card-meta"><span class="source-badge">Onerdinha</span> · <span class="view-count">393K views</span> · 2026-03-23</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=EDjmbhKuZXg" target="_blank" rel="noopener">THEY&#39;RE HIDING THE TRUTH ABOUT AI</a></h3>
 <p>The people building AI say it could destroy humanity… so why are they still racing to build it? To help answer that, I'm joined by ...</p>
-<div class="card-meta"><span class="source-badge">The Diary Of A CEO</span> · <span class="view-count">290K views</span> · 2026-03-26</div>
+<div class="card-meta"><span class="source-badge">The Diary Of A CEO</span> · <span class="view-count">351K views</span> · 2026-03-26</div>
+</div>
+<div class="news-item youtube">
+<h3><a href="https://www.youtube.com/watch?v=-ibxaS8NQGg" target="_blank" rel="noopener">¿Se ROBARON Digital Circus? 😨 Esto está pasando en Amazon…</a></h3>
+<p>Sabías que alguien podría haberse “robado” The Amazing Digital Circus? En Amazon aparecieron libros sospechosamente ...</p>
+<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">301K views</span> · 2026-03-24</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=u5OBC3bVjwo" target="_blank" rel="noopener">$5K AI Spend on a $500K Engineer?! 🚨 You’re Doing It Wrong</a></h3>
 <p>Jensen Huang drops a bold take: if a $500K engineer is only spending $5K on AI tokens, that's a red flag. He says token usage ...</p>
-<div class="card-meta"><span class="source-badge">Future Vision</span> · <span class="view-count">211K views</span> · 2026-03-23</div>
+<div class="card-meta"><span class="source-badge">Future Vision</span> · <span class="view-count">235K views</span> · 2026-03-23</div>
 </div>
 <div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=UlfffoJktSQ" target="_blank" rel="noopener">Ai มีทั้งหมด 5 ระดับ คุณรู้จักมันในระดับไหน ? #computerscience #coding #ai #artificialintelligence</a></h3>
-<div class="card-meta"><span class="source-badge">CodeKub</span> · <span class="view-count">193K views</span> · 2026-03-21</div>
+<h3><a href="https://www.youtube.com/watch?v=yPbZ4UODHrk" target="_blank" rel="noopener">❗️Сергей НЕШУМОВ высказался о ШУМЕ и ФЕЙКАХ по теме скота в Новосибирской области.</a></h3>
+<p>Сергей НЕШУМОВ высказался о ШУМЕ и ФЕЙКАХ по теме скота в Новосибирской области. Хотел бы обратиться с ...</p>
+<div class="card-meta"><span class="source-badge">HародноеTелевидениеСибири</span> · <span class="view-count">177K views</span> · 2026-03-24</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=n-VwC4-BfTM" target="_blank" rel="noopener">ChatGPT vs Gemini vs Claude Make Clash Royale From Scratch</a></h3>
 <p>I put ChatGPT 5.4 up against Google Gemini 3.1 and Claude Opus 4.6 to see who can produce Clash Royale from scratch better.</p>
-<div class="card-meta"><span class="source-badge">tef</span> · <span class="view-count">48K views</span> · 2026-03-21</div>
+<div class="card-meta"><span class="source-badge">tef</span> · <span class="view-count">50K views</span> · 2026-03-21</div>
 </div>
 </div>
 
 <div class="page-footer">
-Last updated: 2026-03-28 06:38 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
+Last updated: 2026-03-28 13:55 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
 </div>
 
 </div>
