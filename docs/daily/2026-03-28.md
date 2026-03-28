@@ -89,24 +89,24 @@ date: 2026-03-28
 <p class="section-label">COMMUNITY</p>
 <div class="news-grid">
 <div class="news-item hn">
+<h3><a href="https://theopenreader.org/Journalism:CERN_Uses_Tiny_AI_Models_Burned_into_Silicon_for_Real-Time_LHC_Data_Filtering" target="_blank" rel="noopener">CERN uses tiny AI models burned into silicon for real-time LHC data filtering</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 37 pts · <a href="https://news.ycombinator.com/item?id=47552562">27 comments</a></div>
+</div>
+<div class="news-item hn">
 <h3><a href="https://blog.dailydoseofds.com/p/anatomy-of-the-claude-folder" target="_blank" rel="noopener">Anatomy of the .claude/ folder</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 413 pts · <a href="https://news.ycombinator.com/item?id=47543139">198 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 482 pts · <a href="https://news.ycombinator.com/item?id=47543139">224 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://arstechnica.com/tech-policy/2026/03/doj-confirms-fbi-director-kash-patels-personal-email-was-hacked/" target="_blank" rel="noopener">DOJ confirms FBI Director Kash Patel's personal email was hacked</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 243 pts · <a href="https://news.ycombinator.com/item?id=47548670">125 comments</a></div>
-</div>
-<div class="news-item hn">
-<h3><a href="https://jacobfilipp.com/yu/" target="_blank" rel="noopener">21,864 Yugoslavian .yu domains</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 81 pts · <a href="https://news.ycombinator.com/item?id=47524051">104 comments</a></div>
+<h3><a href="https://www.reuters.com/world/us/iran-linked-hackers-claim-breach-of-fbi-directors-personal-email-doj-official-2026-03-27/" target="_blank" rel="noopener">Iran-linked hackers breach FBI director's personal email</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 244 pts · <a href="https://news.ycombinator.com/item?id=47543167">352 comments</a></div>
 </div>
 <div class="news-item hn">
 <h3><a href="https://nibblestew.blogspot.com/2026/03/everything-old-is-new-again-memory.html" target="_blank" rel="noopener">Everything old is new again: memory optimization</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 191 pts · <a href="https://news.ycombinator.com/item?id=47493246">134 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 204 pts · <a href="https://news.ycombinator.com/item?id=47493246">140 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://namespace.so/blog/series-a" target="_blank" rel="noopener">Namespace: We've raised $23M to build the compute layer for code</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 17 pts · <a href="https://news.ycombinator.com/item?id=47546998">4 comments</a></div>
+<h3><a href="https://jacobfilipp.com/yu/" target="_blank" rel="noopener">21,864 Yugoslavian .yu domains</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 88 pts · <a href="https://news.ycombinator.com/item?id=47524051">107 comments</a></div>
 </div>
 </div>
 
@@ -115,37 +115,37 @@ date: 2026-03-28
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=J1tvabPH9EY" target="_blank" rel="noopener">VAMOS PODER FALAR COM ANIMAIS!😱 #ciencia #inteligenciaartificial #ia</a></h3>
 <p>Cientistas já estão usando inteligência artificial pra decifrar os sons dos animais — e começaram logo com os golfinhos, que são ...</p>
-<div class="card-meta"><span class="source-badge">Onerdinha</span> · <span class="view-count">393K views</span> · 2026-03-23</div>
-</div>
-<div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=EDjmbhKuZXg" target="_blank" rel="noopener">THEY&#39;RE HIDING THE TRUTH ABOUT AI</a></h3>
-<p>The people building AI say it could destroy humanity… so why are they still racing to build it? To help answer that, I'm joined by ...</p>
-<div class="card-meta"><span class="source-badge">The Diary Of A CEO</span> · <span class="view-count">351K views</span> · 2026-03-26</div>
+<div class="card-meta"><span class="source-badge">Onerdinha</span> · <span class="view-count">396K views</span> · 2026-03-23</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=-ibxaS8NQGg" target="_blank" rel="noopener">¿Se ROBARON Digital Circus? 😨 Esto está pasando en Amazon…</a></h3>
 <p>Sabías que alguien podría haberse “robado” The Amazing Digital Circus? En Amazon aparecieron libros sospechosamente ...</p>
-<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">301K views</span> · 2026-03-24</div>
+<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">305K views</span> · 2026-03-24</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=u5OBC3bVjwo" target="_blank" rel="noopener">$5K AI Spend on a $500K Engineer?! 🚨 You’re Doing It Wrong</a></h3>
 <p>Jensen Huang drops a bold take: if a $500K engineer is only spending $5K on AI tokens, that's a red flag. He says token usage ...</p>
-<div class="card-meta"><span class="source-badge">Future Vision</span> · <span class="view-count">235K views</span> · 2026-03-23</div>
+<div class="card-meta"><span class="source-badge">Future Vision</span> · <span class="view-count">245K views</span> · 2026-03-23</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=yPbZ4UODHrk" target="_blank" rel="noopener">❗️Сергей НЕШУМОВ высказался о ШУМЕ и ФЕЙКАХ по теме скота в Новосибирской области.</a></h3>
 <p>Сергей НЕШУМОВ высказался о ШУМЕ и ФЕЙКАХ по теме скота в Новосибирской области. Хотел бы обратиться с ...</p>
-<div class="card-meta"><span class="source-badge">HародноеTелевидениеСибири</span> · <span class="view-count">177K views</span> · 2026-03-24</div>
+<div class="card-meta"><span class="source-badge">HародноеTелевидениеСибири</span> · <span class="view-count">176K views</span> · 2026-03-24</div>
+</div>
+<div class="news-item youtube">
+<h3><a href="https://www.youtube.com/watch?v=ehA2QebIYlw" target="_blank" rel="noopener">A IA VAI DESTRUIR O MUNDO? 🚨💸#GustavoCunha #FlowPodcast #games #FlashCrash #Shorts</a></h3>
+<p>Gustavo Cunha faz um alerta assustador no Flow: a IA não precisa de robôs assassinos para acabar com a humanidade.</p>
+<div class="card-meta"><span class="source-badge">Sala Segura</span> · <span class="view-count">107K views</span> · 2026-03-22</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=n-VwC4-BfTM" target="_blank" rel="noopener">ChatGPT vs Gemini vs Claude Make Clash Royale From Scratch</a></h3>
 <p>I put ChatGPT 5.4 up against Google Gemini 3.1 and Claude Opus 4.6 to see who can produce Clash Royale from scratch better.</p>
-<div class="card-meta"><span class="source-badge">tef</span> · <span class="view-count">50K views</span> · 2026-03-21</div>
+<div class="card-meta"><span class="source-badge">tef</span> · <span class="view-count">51K views</span> · 2026-03-21</div>
 </div>
 </div>
 
 <div class="page-footer">
-Last updated: 2026-03-28 13:55 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
+Last updated: 2026-03-28 18:40 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
 </div>
 
 </div>
