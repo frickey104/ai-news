@@ -16,39 +16,40 @@ date: 2026-03-29
 
 <p class="section-label">TODAY'S KEYWORDS</p>
 <div class="trend-tags">
-<span class="trend-tag hot">OpenAI</span>
-<span class="trend-tag hot">Sora</span>
 <span class="trend-tag hot">Claude</span>
-<span class="trend-tag">Anthropic</span>
+<span class="trend-tag hot">OpenAI</span>
+<span class="trend-tag hot">Anthropic</span>
+<span class="trend-tag">Meta</span>
+<span class="trend-tag">Sora</span>
 </div>
 
 <p class="section-label">HIGHLIGHTS</p>
 <div class="highlights-grid">
 <div class="highlight-card">
 <div class="highlight-badge">PICK UP</div>
-<h3><a href="https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/" target="_blank" rel="noopener">Anthropic’s Claude popularity with paying consumers is skyrocketing</a></h3>
-<p>Estimates for total Claude consumer users are all over the map (we've seen figures ranging from 18 million to 30 million). Anthropic hasn't disclosed this data, but a spokesperson did tell TechCrunch...</p>
+<h3><a href="https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/" target="_blank" rel="noopener">Stanford study outlines dangers of asking AI chatbots for personal advice</a></h3>
+<p>While there’s been plenty of debate about AI sycophancy, a new study by Stanford computer scientists attempts to measure how harmful that tendency might be.</p>
 <div class="card-meta"><span class="source-badge">TechCrunch</span> · Sat, 28 Ma</div>
 </div>
 <div class="highlight-card">
 <div class="highlight-badge">PICK UP</div>
-<h3><a href="https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/" target="_blank" rel="noopener">Why SoftBank’s new $40B loan points to a 2026 OpenAI IPO</a></h3>
-<p>Wall Street giants JPMorgan and Goldman Sachs are extending a 12-month, unsecured loan to the Japanese conglomerate.</p>
-<div class="card-meta"><span class="source-badge">TechCrunch</span> · Fri, 27 Ma</div>
+<h3><a href="https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/" target="_blank" rel="noopener">Elon Musk’s last co-founder reportedly leaves xAI</a></h3>
+<p>All but two of Musk's 11 xAI co-founders departed before this week.</p>
+<div class="card-meta"><span class="source-badge">TechCrunch</span> · Sat, 28 Ma</div>
 </div>
 <div class="highlight-card">
 <div class="highlight-badge">PICK UP</div>
-<h3><a href="https://techcrunch.com/2026/03/27/memory-chip-giant-sk-hynix-could-help-end-rammageddon-with-blockbuster-us-ipo/" target="_blank" rel="noopener">Memory chip giant SK hynix could help end ‘RAMmageddon’ with blockbuster US IPO</a></h3>
-<p>SK hynix’s potential U.S. listing could raise $10-$14 billion to help it build more capacity, encourage others to follow, and end the 'RAMmageddon' memory shortage.</p>
-<div class="card-meta"><span class="source-badge">TechCrunch</span> · Fri, 27 Ma</div>
+<h3><a href="https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/" target="_blank" rel="noopener">Anthropic’s Claude popularity with paying consumers is skyrocketing</a></h3>
+<p>Estimates for total Claude consumer users are all over the map (we've seen figures ranging from 18 million to 30 million). Anthropic hasn't disclosed this data, but a spokesperson did tell TechCrunch...</p>
+<div class="card-meta"><span class="source-badge">TechCrunch</span> · Sat, 28 Ma</div>
 </div>
 </div>
 
 <p class="section-label">AI NEWS</p>
 <div class="news-grid">
 <div class="news-item">
-<h3><a href="https://techcrunch.com/podcast/vcs-are-betting-billions-on-ais-next-wave-so-why-is-openai-killing-sora/" target="_blank" rel="noopener">VCs are betting billions on AI’s next wave, so why is OpenAI killing Sora?</a></h3>
-<p>When an 82-year-old Kentucky woman was offered $26 million from an AI company that wanted to build a data center on her land, she said no. Sure, that same company can try to rezone 2,000 acres nearby...</p>
+<h3><a href="https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/" target="_blank" rel="noopener">Why SoftBank’s new $40B loan points to a 2026 OpenAI IPO</a></h3>
+<p>Wall Street giants JPMorgan and Goldman Sachs are extending a 12-month, unsecured loan to the Japanese conglomerate.</p>
 <div class="card-meta"><span class="source-badge">TechCrunch</span> · Fri, 27 Ma</div>
 </div>
 <div class="news-item">
@@ -67,7 +68,12 @@ date: 2026-03-29
 <div class="card-meta"><span class="source-badge">VentureBeat</span> · Fri, 16 Ja</div>
 </div>
 <div class="news-item">
-<h3><a href="https://www.theverge.com/ai-artificial-intelligence/900400/tiktok-ai-ads-labels-samsung-disclosure" target="_blank" rel="noopener">TikTok&#8217;s policy for AI ads isn&#8217;t working</a></h3>
+<h3><a href="https://www.theverge.com/entertainment/903056/suno-ai-music-v5-5-model" target="_blank" rel="noopener">Suno leans into customization with v5.5</a></h3>
+<p>Suno just released one of its biggest updates yet with v5.5 of its AI music model. Where previous updates focused mostly on improving fidelity and creating more natural vocals, v5.5 is about giving...</p>
+<div class="card-meta"><span class="source-badge">The Verge</span> · 2026-03-28</div>
+</div>
+<div class="news-item">
+<h3><a href="https://www.theverge.com/ai-artificial-intelligence/900400/tiktok-ai-ads-labels-samsung-disclosure" target="_blank" rel="noopener">Why can’t TikTok identify AI generated ads when I can?</a></h3>
 <p>I've been struggling to tell whether the ads appearing in my TikTok feeds have been made with generative AI tools. As someone who spends a great deal of time scrutinizing images and videos for the...</p>
 <div class="card-meta"><span class="source-badge">The Verge</span> · 2026-03-28</div>
 </div>
@@ -76,34 +82,29 @@ date: 2026-03-29
 <p>On Tuesday morning, everything was business as usual at OpenAI. By the end of the day, the company had announced that it would scrap its video-generation app, Sora, and reverse plans for video...</p>
 <div class="card-meta"><span class="source-badge">The Verge</span> · 2026-03-28</div>
 </div>
-<div class="news-item">
-<h3><a href="https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy" target="_blank" rel="noopener">The latest in data centers, AI, and energy</a></h3>
-<p>Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the...</p>
-<div class="card-meta"><span class="source-badge">The Verge</span> · 2026-03-27</div>
-</div>
 </div>
 
 <p class="section-label">COMMUNITY</p>
 <div class="news-grid">
 <div class="news-item hn">
-<h3><a href="https://grid.iamkate.com/" target="_blank" rel="noopener">Britain today generating 90%+ of electricity from renewables</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 252 pts · <a href="https://news.ycombinator.com/item?id=47553484">171 comments</a></div>
+<h3><a href="https://twitter.com/BoWang87/status/2037648937453232504" target="_blank" rel="noopener">Further human + AI + proof assistant work on Knuth's "Claude Cycles" problem</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 93 pts · <a href="https://news.ycombinator.com/item?id=47557166">38 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research" target="_blank" rel="noopener">AI chatbots are "Yes-Men" that reinforce bad relationship decisions, study finds</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 93 pts · <a href="https://news.ycombinator.com/item?id=47554773">80 comments</a></div>
+<h3><a href="https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research" target="_blank" rel="noopener">AI overly affirms users asking for personal advice</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 446 pts · <a href="https://news.ycombinator.com/item?id=47554773">354 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://theopenreader.org/Journalism:CERN_Uses_Tiny_AI_Models_Burned_into_Silicon_for_Real-Time_LHC_Data_Filtering" target="_blank" rel="noopener">CERN uses tiny AI models burned into silicon for real-time LHC data filtering</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 192 pts · <a href="https://news.ycombinator.com/item?id=47552562">95 comments</a></div>
+<h3><a href="https://lzon.ca/posts/other/thoughts-ai-era/" target="_blank" rel="noopener">The first 40 months of the AI era</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 35 pts · <a href="https://news.ycombinator.com/item?id=47557185">0 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://www.theregister.com/2026/03/27/sycophantic_ai_risks/" target="_blank" rel="noopener">Folk are getting dangerously attached to AI that always tells them they're right</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 39 pts · <a href="https://news.ycombinator.com/item?id=47555090">18 comments</a></div>
+<h3><a href="https://theopenreader.org/Journalism:CERN_Uses_Tiny_AI_Models_Burned_into_Silicon_for_Real-Time_LHC_Data_Filtering" target="_blank" rel="noopener">CERN uses ultra-compact AI models on FPGAs for real-time LHC data filtering</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 276 pts · <a href="https://news.ycombinator.com/item?id=47552562">125 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://github.com/dbrll/ATTN-11" target="_blank" rel="noopener">Paper Tape Is All You Need – Training a Transformer on a 1976 Minicomputer</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 73 pts · <a href="https://news.ycombinator.com/item?id=47518568">10 comments</a></div>
+<h3><a href="https://www.ycombinator.com/companies/toma/jobs/2lrQI7S-sr-staff-software-engineer" target="_blank" rel="noopener">Toma (YC W24) is hiring a Senior/Staff Eng to build AI automotive coworkers</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 1 pts · <a href="https://news.ycombinator.com/item?id=47553796">0 comments</a></div>
 </div>
 </div>
 
@@ -112,17 +113,22 @@ date: 2026-03-29
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=J1tvabPH9EY" target="_blank" rel="noopener">VAMOS PODER FALAR COM ANIMAIS!😱 #ciencia #inteligenciaartificial #ia</a></h3>
 <p>Cientistas já estão usando inteligência artificial pra decifrar os sons dos animais — e começaram logo com os golfinhos, que são ...</p>
-<div class="card-meta"><span class="source-badge">Onerdinha</span> · <span class="view-count">401K views</span> · 2026-03-23</div>
+<div class="card-meta"><span class="source-badge">Onerdinha</span> · <span class="view-count">413K views</span> · 2026-03-23</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=-ibxaS8NQGg" target="_blank" rel="noopener">¿Se ROBARON Digital Circus? 😨 Esto está pasando en Amazon…</a></h3>
 <p>Sabías que alguien podría haberse “robado” The Amazing Digital Circus? En Amazon aparecieron libros sospechosamente ...</p>
-<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">306K views</span> · 2026-03-24</div>
+<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">310K views</span> · 2026-03-24</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=u5OBC3bVjwo" target="_blank" rel="noopener">$5K AI Spend on a $500K Engineer?! 🚨 You’re Doing It Wrong</a></h3>
 <p>Jensen Huang drops a bold take: if a $500K engineer is only spending $5K on AI tokens, that's a red flag. He says token usage ...</p>
-<div class="card-meta"><span class="source-badge">Future Vision</span> · <span class="view-count">253K views</span> · 2026-03-23</div>
+<div class="card-meta"><span class="source-badge">Future Vision</span> · <span class="view-count">259K views</span> · 2026-03-23</div>
+</div>
+<div class="news-item youtube">
+<h3><a href="https://www.youtube.com/watch?v=4Gmd5UTF4rk" target="_blank" rel="noopener">Anthropic&#39;s Generational Run, OpenAI Panics, AI Moats, Meta Loses Major Lawsuits</a></h3>
+<p>(0:00) Bestie intros!: Friedberg for Governor of California? (2:25) Anthropic's generational run (15:45) OpenAI: getting focused or ...</p>
+<div class="card-meta"><span class="source-badge">All-In Podcast</span> · <span class="view-count">213K views</span> · 2026-03-27</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=yPbZ4UODHrk" target="_blank" rel="noopener">❗️Сергей НЕШУМОВ высказался о ШУМЕ и ФЕЙКАХ по теме скота в Новосибирской области.</a></h3>
@@ -130,19 +136,14 @@ date: 2026-03-29
 <div class="card-meta"><span class="source-badge">HародноеTелевидениеСибири</span> · <span class="view-count">176K views</span> · 2026-03-24</div>
 </div>
 <div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=ehA2QebIYlw" target="_blank" rel="noopener">A IA VAI DESTRUIR O MUNDO? 🚨💸#GustavoCunha #FlowPodcast #games #FlashCrash #Shorts</a></h3>
-<p>Gustavo Cunha faz um alerta assustador no Flow: a IA não precisa de robôs assassinos para acabar com a humanidade.</p>
-<div class="card-meta"><span class="source-badge">Sala Segura</span> · <span class="view-count">108K views</span> · 2026-03-22</div>
-</div>
-<div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=LKpwNdGMnUo" target="_blank" rel="noopener">Jack Hidary on OpenAI Sora Shutdown, AI Economics &amp; Massive IPO Wave | CNBC Squawk on the Street</a></h3>
-<p>SandboxAQ CEO Jack Hidary joins CNBC's Squawk on the Street to break down the sudden shutdown of OpenAI's Sora video ...</p>
-<div class="card-meta"><span class="source-badge">SandboxAQ</span> · <span class="view-count">69K views</span> · 2026-03-28</div>
+<h3><a href="https://www.youtube.com/watch?v=7n2bm9lQOy8" target="_blank" rel="noopener">🚨 We Are Losing Control of AI | Expert Testimony #ai #airevolution #technews #artificialintelligence</a></h3>
+<p>Are we already too late? In this alarming expert testimony, Wyatt Tessari L'Allié reveals how recent advancements have created a ...</p>
+<div class="card-meta"><span class="source-badge">Lovnish Verma</span> · <span class="view-count">101K views</span> · 2026-03-25</div>
 </div>
 </div>
 
 <div class="page-footer">
-Last updated: 2026-03-29 00:34 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
+Last updated: 2026-03-29 06:32 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
 </div>
 
 </div>
