@@ -19,6 +19,7 @@ date: 2026-03-29
 <span class="trend-tag hot">Claude</span>
 <span class="trend-tag hot">OpenAI</span>
 <span class="trend-tag hot">Anthropic</span>
+<span class="trend-tag">ChatGPT</span>
 <span class="trend-tag">Meta</span>
 <span class="trend-tag">AGI</span>
 <span class="trend-tag">Sora</span>
@@ -89,19 +90,19 @@ date: 2026-03-29
 <div class="news-grid">
 <div class="news-item hn">
 <h3><a href="https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research" target="_blank" rel="noopener">AI overly affirms users asking for personal advice</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 576 pts · <a href="https://news.ycombinator.com/item?id=47554773">440 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 640 pts · <a href="https://news.ycombinator.com/item?id=47554773">478 comments</a></div>
 </div>
 <div class="news-item hn">
 <h3><a href="https://twitter.com/BoWang87/status/2037648937453232504" target="_blank" rel="noopener">Further human + AI + proof assistant work on Knuth's "Claude Cycles" problem</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 179 pts · <a href="https://news.ycombinator.com/item?id=47557166">117 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 204 pts · <a href="https://news.ycombinator.com/item?id=47557166">133 comments</a></div>
+</div>
+<div class="news-item hn">
+<h3><a href="https://www.fraunhofer.de/en/press/research-news/2026/march-2026/sealing-paper-packaging-without-adhesives.html" target="_blank" rel="noopener">A laser-based process that enables adhesive-free paper packaging</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 73 pts · <a href="https://news.ycombinator.com/item?id=47558782">33 comments</a></div>
 </div>
 <div class="news-item hn">
 <h3><a href="https://lzon.ca/posts/other/thoughts-ai-era/" target="_blank" rel="noopener">The first 40 months of the AI era</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 147 pts · <a href="https://news.ycombinator.com/item?id=47557185">75 comments</a></div>
-</div>
-<div class="news-item hn">
-<h3><a href="https://www.fraunhofer.de/en/press/research-news/2026/march-2026/sealing-paper-packaging-without-adhesives.html" target="_blank" rel="noopener">Sealing Paper Packaging Without Adhesives</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 47 pts · <a href="https://news.ycombinator.com/item?id=47558782">14 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 180 pts · <a href="https://news.ycombinator.com/item?id=47557185">95 comments</a></div>
 </div>
 <div class="news-item hn">
 <h3><a href="https://inpharmd.com/jobs/senior-ruby-on-rails-engineer" target="_blank" rel="noopener">InpharmD (YC W21) Is Hiring – Senior Ruby on Rails Developer</a></h3>
@@ -112,39 +113,39 @@ date: 2026-03-29
 <p class="section-label">TRENDING VIDEOS</p>
 <div class="news-grid">
 <div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=J1tvabPH9EY" target="_blank" rel="noopener">VAMOS PODER FALAR COM ANIMAIS!😱 #ciencia #inteligenciaartificial #ia</a></h3>
-<p>Cientistas já estão usando inteligência artificial pra decifrar os sons dos animais — e começaram logo com os golfinhos, que são ...</p>
-<div class="card-meta"><span class="source-badge">Onerdinha</span> · <span class="view-count">425K views</span> · 2026-03-23</div>
+<h3><a href="https://www.youtube.com/watch?v=NhUEAOrTnPc" target="_blank" rel="noopener">Perdóname Skibidi Toilet… esto es PEOR 💀🍉</a></h3>
+<p>La humanidad está en decadencia? En TikTok acaba de explotar una cuenta que rompe TODOS los récords… con una serie ...</p>
+<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">520K views</span> · 2026-03-24</div>
 </div>
 <div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=-ibxaS8NQGg" target="_blank" rel="noopener">¿Se ROBARON Digital Circus? 😨 Esto está pasando en Amazon…</a></h3>
-<p>Sabías que alguien podría haberse “robado” The Amazing Digital Circus? En Amazon aparecieron libros sospechosamente ...</p>
-<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">313K views</span> · 2026-03-24</div>
+<h3><a href="https://www.youtube.com/watch?v=J1tvabPH9EY" target="_blank" rel="noopener">VAMOS PODER FALAR COM ANIMAIS!😱 #ciencia #inteligenciaartificial #ia</a></h3>
+<p>Cientistas já estão usando inteligência artificial pra decifrar os sons dos animais — e começaram logo com os golfinhos, que são ...</p>
+<div class="card-meta"><span class="source-badge">Onerdinha</span> · <span class="view-count">426K views</span> · 2026-03-23</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=u5OBC3bVjwo" target="_blank" rel="noopener">$5K AI Spend on a $500K Engineer?! 🚨 You’re Doing It Wrong</a></h3>
 <p>Jensen Huang drops a bold take: if a $500K engineer is only spending $5K on AI tokens, that's a red flag. He says token usage ...</p>
-<div class="card-meta"><span class="source-badge">Future Vision</span> · <span class="view-count">280K views</span> · 2026-03-23</div>
+<div class="card-meta"><span class="source-badge">Future Vision</span> · <span class="view-count">287K views</span> · 2026-03-23</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=4Gmd5UTF4rk" target="_blank" rel="noopener">Anthropic&#39;s Generational Run, OpenAI Panics, AI Moats, Meta Loses Major Lawsuits</a></h3>
 <p>(0:00) Bestie intros!: Friedberg for Governor of California? (2:25) Anthropic's generational run (15:45) OpenAI: getting focused or ...</p>
-<div class="card-meta"><span class="source-badge">All-In Podcast</span> · <span class="view-count">251K views</span> · 2026-03-27</div>
-</div>
-<div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=yPbZ4UODHrk" target="_blank" rel="noopener">❗️Сергей НЕШУМОВ высказался о ШУМЕ и ФЕЙКАХ по теме скота в Новосибирской области.</a></h3>
-<p>Сергей НЕШУМОВ высказался о ШУМЕ и ФЕЙКАХ по теме скота в Новосибирской области. Хотел бы обратиться с ...</p>
-<div class="card-meta"><span class="source-badge">HародноеTелевидениеСибири</span> · <span class="view-count">176K views</span> · 2026-03-24</div>
+<div class="card-meta"><span class="source-badge">All-In Podcast</span> · <span class="view-count">264K views</span> · 2026-03-27</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=7n2bm9lQOy8" target="_blank" rel="noopener">🚨 We Are Losing Control of AI | Expert Testimony #ai #airevolution #technews #artificialintelligence</a></h3>
 <p>Are we already too late? In this alarming expert testimony, Wyatt Tessari L'Allié reveals how recent advancements have created a ...</p>
-<div class="card-meta"><span class="source-badge">Lovnish Verma</span> · <span class="view-count">108K views</span> · 2026-03-25</div>
+<div class="card-meta"><span class="source-badge">Lovnish Verma</span> · <span class="view-count">110K views</span> · 2026-03-25</div>
+</div>
+<div class="news-item youtube">
+<h3><a href="https://www.youtube.com/watch?v=KXv3KGIB14Y" target="_blank" rel="noopener">Anthropic ROASTS OpenAI in New Ad🔥 #artificialintelligence #ai #openai #anthropic #claudeai #chatgpt</a></h3>
+<p>Anthropic launched a Super Bowl ad campaign mocking AI chatbot advertising with the tagline “Ads are coming to AI. But not to ...</p>
+<div class="card-meta"><span class="source-badge">Lovnish Verma</span> · <span class="view-count">102K views</span> · 2026-03-26</div>
 </div>
 </div>
 
 <div class="page-footer">
-Last updated: 2026-03-29 14:13 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
+Last updated: 2026-03-29 18:40 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
 </div>
 
 </div>
