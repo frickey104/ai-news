@@ -20,11 +20,18 @@ date: 2026-03-29
 <span class="trend-tag hot">OpenAI</span>
 <span class="trend-tag hot">Anthropic</span>
 <span class="trend-tag">Meta</span>
+<span class="trend-tag">AGI</span>
 <span class="trend-tag">Sora</span>
 </div>
 
 <p class="section-label">HIGHLIGHTS</p>
 <div class="highlights-grid">
+<div class="highlight-card">
+<div class="highlight-badge">PICK UP</div>
+<h3><a href="https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/" target="_blank" rel="noopener">Bluesky leans into AI with Attie, an app for building custom feeds</a></h3>
+<p>Bluesky’s new app Attie uses AI to help people build custom feeds the open social networking protocol atproto.</p>
+<div class="card-meta"><span class="source-badge">TechCrunch</span> · Sat, 28 Ma</div>
+</div>
 <div class="highlight-card">
 <div class="highlight-badge">PICK UP</div>
 <h3><a href="https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/" target="_blank" rel="noopener">Stanford study outlines dangers of asking AI chatbots for personal advice</a></h3>
@@ -37,20 +44,14 @@ date: 2026-03-29
 <p>All but two of Musk's 11 xAI co-founders departed before this week.</p>
 <div class="card-meta"><span class="source-badge">TechCrunch</span> · Sat, 28 Ma</div>
 </div>
-<div class="highlight-card">
-<div class="highlight-badge">PICK UP</div>
-<h3><a href="https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/" target="_blank" rel="noopener">Anthropic’s Claude popularity with paying consumers is skyrocketing</a></h3>
-<p>Estimates for total Claude consumer users are all over the map (we've seen figures ranging from 18 million to 30 million). Anthropic hasn't disclosed this data, but a spokesperson did tell TechCrunch...</p>
-<div class="card-meta"><span class="source-badge">TechCrunch</span> · Sat, 28 Ma</div>
-</div>
 </div>
 
 <p class="section-label">AI NEWS</p>
 <div class="news-grid">
 <div class="news-item">
-<h3><a href="https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/" target="_blank" rel="noopener">Why SoftBank’s new $40B loan points to a 2026 OpenAI IPO</a></h3>
-<p>Wall Street giants JPMorgan and Goldman Sachs are extending a 12-month, unsecured loan to the Japanese conglomerate.</p>
-<div class="card-meta"><span class="source-badge">TechCrunch</span> · Fri, 27 Ma</div>
+<h3><a href="https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/" target="_blank" rel="noopener">Anthropic’s Claude popularity with paying consumers is skyrocketing</a></h3>
+<p>Estimates for total Claude consumer users are all over the map (we've seen figures ranging from 18 million to 30 million). Anthropic hasn't disclosed this data, but a spokesperson did tell TechCrunch...</p>
+<div class="card-meta"><span class="source-badge">TechCrunch</span> · Sat, 28 Ma</div>
 </div>
 <div class="news-item">
 <h3><a href="https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud" target="_blank" rel="noopener">Railway secures $100 million to challenge AWS with AI-native cloud infrastructure</a></h3>
@@ -87,24 +88,24 @@ date: 2026-03-29
 <p class="section-label">COMMUNITY</p>
 <div class="news-grid">
 <div class="news-item hn">
-<h3><a href="https://twitter.com/BoWang87/status/2037648937453232504" target="_blank" rel="noopener">Further human + AI + proof assistant work on Knuth's "Claude Cycles" problem</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 93 pts · <a href="https://news.ycombinator.com/item?id=47557166">38 comments</a></div>
+<h3><a href="https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research" target="_blank" rel="noopener">AI overly affirms users asking for personal advice</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 576 pts · <a href="https://news.ycombinator.com/item?id=47554773">440 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research" target="_blank" rel="noopener">AI overly affirms users asking for personal advice</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 446 pts · <a href="https://news.ycombinator.com/item?id=47554773">354 comments</a></div>
+<h3><a href="https://twitter.com/BoWang87/status/2037648937453232504" target="_blank" rel="noopener">Further human + AI + proof assistant work on Knuth's "Claude Cycles" problem</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 179 pts · <a href="https://news.ycombinator.com/item?id=47557166">117 comments</a></div>
 </div>
 <div class="news-item hn">
 <h3><a href="https://lzon.ca/posts/other/thoughts-ai-era/" target="_blank" rel="noopener">The first 40 months of the AI era</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 35 pts · <a href="https://news.ycombinator.com/item?id=47557185">0 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 147 pts · <a href="https://news.ycombinator.com/item?id=47557185">75 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://theopenreader.org/Journalism:CERN_Uses_Tiny_AI_Models_Burned_into_Silicon_for_Real-Time_LHC_Data_Filtering" target="_blank" rel="noopener">CERN uses ultra-compact AI models on FPGAs for real-time LHC data filtering</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 276 pts · <a href="https://news.ycombinator.com/item?id=47552562">125 comments</a></div>
+<h3><a href="https://www.fraunhofer.de/en/press/research-news/2026/march-2026/sealing-paper-packaging-without-adhesives.html" target="_blank" rel="noopener">Sealing Paper Packaging Without Adhesives</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 47 pts · <a href="https://news.ycombinator.com/item?id=47558782">14 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://www.ycombinator.com/companies/toma/jobs/2lrQI7S-sr-staff-software-engineer" target="_blank" rel="noopener">Toma (YC W24) is hiring a Senior/Staff Eng to build AI automotive coworkers</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 1 pts · <a href="https://news.ycombinator.com/item?id=47553796">0 comments</a></div>
+<h3><a href="https://inpharmd.com/jobs/senior-ruby-on-rails-engineer" target="_blank" rel="noopener">InpharmD (YC W21) Is Hiring – Senior Ruby on Rails Developer</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 1 pts · <a href="https://news.ycombinator.com/item?id=47558305">0 comments</a></div>
 </div>
 </div>
 
@@ -113,22 +114,22 @@ date: 2026-03-29
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=J1tvabPH9EY" target="_blank" rel="noopener">VAMOS PODER FALAR COM ANIMAIS!😱 #ciencia #inteligenciaartificial #ia</a></h3>
 <p>Cientistas já estão usando inteligência artificial pra decifrar os sons dos animais — e começaram logo com os golfinhos, que são ...</p>
-<div class="card-meta"><span class="source-badge">Onerdinha</span> · <span class="view-count">413K views</span> · 2026-03-23</div>
+<div class="card-meta"><span class="source-badge">Onerdinha</span> · <span class="view-count">425K views</span> · 2026-03-23</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=-ibxaS8NQGg" target="_blank" rel="noopener">¿Se ROBARON Digital Circus? 😨 Esto está pasando en Amazon…</a></h3>
 <p>Sabías que alguien podría haberse “robado” The Amazing Digital Circus? En Amazon aparecieron libros sospechosamente ...</p>
-<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">310K views</span> · 2026-03-24</div>
+<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">313K views</span> · 2026-03-24</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=u5OBC3bVjwo" target="_blank" rel="noopener">$5K AI Spend on a $500K Engineer?! 🚨 You’re Doing It Wrong</a></h3>
 <p>Jensen Huang drops a bold take: if a $500K engineer is only spending $5K on AI tokens, that's a red flag. He says token usage ...</p>
-<div class="card-meta"><span class="source-badge">Future Vision</span> · <span class="view-count">259K views</span> · 2026-03-23</div>
+<div class="card-meta"><span class="source-badge">Future Vision</span> · <span class="view-count">280K views</span> · 2026-03-23</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=4Gmd5UTF4rk" target="_blank" rel="noopener">Anthropic&#39;s Generational Run, OpenAI Panics, AI Moats, Meta Loses Major Lawsuits</a></h3>
 <p>(0:00) Bestie intros!: Friedberg for Governor of California? (2:25) Anthropic's generational run (15:45) OpenAI: getting focused or ...</p>
-<div class="card-meta"><span class="source-badge">All-In Podcast</span> · <span class="view-count">213K views</span> · 2026-03-27</div>
+<div class="card-meta"><span class="source-badge">All-In Podcast</span> · <span class="view-count">251K views</span> · 2026-03-27</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=yPbZ4UODHrk" target="_blank" rel="noopener">❗️Сергей НЕШУМОВ высказался о ШУМЕ и ФЕЙКАХ по теме скота в Новосибирской области.</a></h3>
@@ -138,12 +139,12 @@ date: 2026-03-29
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=7n2bm9lQOy8" target="_blank" rel="noopener">🚨 We Are Losing Control of AI | Expert Testimony #ai #airevolution #technews #artificialintelligence</a></h3>
 <p>Are we already too late? In this alarming expert testimony, Wyatt Tessari L'Allié reveals how recent advancements have created a ...</p>
-<div class="card-meta"><span class="source-badge">Lovnish Verma</span> · <span class="view-count">101K views</span> · 2026-03-25</div>
+<div class="card-meta"><span class="source-badge">Lovnish Verma</span> · <span class="view-count">108K views</span> · 2026-03-25</div>
 </div>
 </div>
 
 <div class="page-footer">
-Last updated: 2026-03-29 06:32 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
+Last updated: 2026-03-29 14:13 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
 </div>
 
 </div>
