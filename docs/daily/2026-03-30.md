@@ -16,15 +16,22 @@ date: 2026-03-30
 
 <p class="section-label">TODAY'S KEYWORDS</p>
 <div class="trend-tags">
-<span class="trend-tag hot">Claude</span>
 <span class="trend-tag hot">OpenAI</span>
-<span class="trend-tag hot">Anthropic</span>
+<span class="trend-tag hot">Sora</span>
+<span class="trend-tag hot">ChatGPT</span>
+<span class="trend-tag">Claude</span>
+<span class="trend-tag">Anthropic</span>
 <span class="trend-tag">Meta</span>
-<span class="trend-tag">Sora</span>
 </div>
 
 <p class="section-label">HIGHLIGHTS</p>
 <div class="highlights-grid">
+<div class="highlight-card">
+<div class="highlight-badge">PICK UP</div>
+<h3><a href="https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/" target="_blank" rel="noopener">Sora’s shutdown could be a reality check moment for AI video</a></h3>
+<p>Is this just normal corporate strategy, or are we about to see a broader pullback on AI-generated video?</p>
+<div class="card-meta"><span class="source-badge">TechCrunch</span> · Sun, 29 Ma</div>
+</div>
 <div class="highlight-card">
 <div class="highlight-badge">PICK UP</div>
 <h3><a href="https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/" target="_blank" rel="noopener">Bluesky leans into AI with Attie, an app for building custom feeds</a></h3>
@@ -37,19 +44,13 @@ date: 2026-03-30
 <p>While there’s been plenty of debate about AI sycophancy, a new study by Stanford computer scientists attempts to measure how harmful that tendency might be.</p>
 <div class="card-meta"><span class="source-badge">TechCrunch</span> · Sat, 28 Ma</div>
 </div>
-<div class="highlight-card">
-<div class="highlight-badge">PICK UP</div>
-<h3><a href="https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/" target="_blank" rel="noopener">Elon Musk’s last co-founder reportedly leaves xAI</a></h3>
-<p>All but two of Musk's 11 xAI co-founders departed before this week.</p>
-<div class="card-meta"><span class="source-badge">TechCrunch</span> · Sat, 28 Ma</div>
-</div>
 </div>
 
 <p class="section-label">AI NEWS</p>
 <div class="news-grid">
 <div class="news-item">
-<h3><a href="https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/" target="_blank" rel="noopener">Anthropic’s Claude popularity with paying consumers is skyrocketing</a></h3>
-<p>Estimates for total Claude consumer users are all over the map (we've seen figures ranging from 18 million to 30 million). Anthropic hasn't disclosed this data, but a spokesperson did tell TechCrunch...</p>
+<h3><a href="https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/" target="_blank" rel="noopener">Elon Musk’s last co-founder reportedly leaves xAI</a></h3>
+<p>All but two of Musk's 11 xAI co-founders departed before this week.</p>
 <div class="card-meta"><span class="source-badge">TechCrunch</span> · Sat, 28 Ma</div>
 </div>
 <div class="news-item">
@@ -87,24 +88,24 @@ date: 2026-03-30
 <p class="section-label">COMMUNITY</p>
 <div class="news-grid">
 <div class="news-item hn">
-<h3><a href="https://github.com/austin-weeks/miasma" target="_blank" rel="noopener">Miasma: A tool to trap AI web scrapers in an endless poison pit</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 149 pts · <a href="https://news.ycombinator.com/item?id=47561819">83 comments</a></div>
+<h3><a href="https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/" target="_blank" rel="noopener">ChatGPT Won't Let You Type Until Cloudflare Reads Your React State</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 103 pts · <a href="https://news.ycombinator.com/item?id=47566865">49 comments</a></div>
+</div>
+<div class="news-item hn">
+<h3><a href="https://isp.netscape.com/news/story/0001/20260329/e4d8ea591b3b036142c2bf2dee7dff5a" target="_blank" rel="noopener">Midnight train from GA: A view of America from the tracks as airports struggle</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 32 pts · <a href="https://news.ycombinator.com/item?id=47566653">18 comments</a></div>
+</div>
+<div class="news-item hn">
+<h3><a href="https://www.jrkyushu.co.jp/english/train/index.html" target="_blank" rel="noopener">Kyushu Railway Company Train Varieties</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 24 pts · <a href="https://news.ycombinator.com/item?id=47566140">0 comments</a></div>
 </div>
 <div class="news-item hn">
 <h3><a href="https://www.cnn.com/2026/03/29/us/angela-lipps-ai-facial-recognition" target="_blank" rel="noopener">Police used AI facial recognition to wrongly arrest TN woman for crimes in ND</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 42 pts · <a href="https://news.ycombinator.com/item?id=47563384">27 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 286 pts · <a href="https://news.ycombinator.com/item?id=47563384">111 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://sites.pitt.edu/~jdnorton/Goodies/Idealization/index.html" target="_blank" rel="noopener">The Failure of the Thermodynamics of Computation(2010)</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 22 pts · <a href="https://news.ycombinator.com/item?id=47538596">0 comments</a></div>
-</div>
-<div class="news-item hn">
-<h3><a href="https://news.stanford.edu/stories/2026/03/ai-advice-sycophantic-models-research" target="_blank" rel="noopener">AI overly affirms users asking for personal advice</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 712 pts · <a href="https://news.ycombinator.com/item?id=47554773">567 comments</a></div>
-</div>
-<div class="news-item hn">
-<h3><a href="https://r-type.org/articles/art-452.htm" target="_blank" rel="noopener">Siclair Microvision (1977)</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 35 pts · <a href="https://news.ycombinator.com/item?id=47533324">11 comments</a></div>
+<h3><a href="https://github.com/austin-weeks/miasma" target="_blank" rel="noopener">Miasma: A tool to trap AI web scrapers in an endless poison pit</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 260 pts · <a href="https://news.ycombinator.com/item?id=47561819">193 comments</a></div>
 </div>
 </div>
 
@@ -113,37 +114,37 @@ date: 2026-03-30
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=NhUEAOrTnPc" target="_blank" rel="noopener">Perdóname Skibidi Toilet… esto es PEOR 💀🍉</a></h3>
 <p>La humanidad está en decadencia? En TikTok acaba de explotar una cuenta que rompe TODOS los récords… con una serie ...</p>
-<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">522K views</span> · 2026-03-24</div>
+<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">528K views</span> · 2026-03-24</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=W_lqCSRdZnc" target="_blank" rel="noopener">화타급 진단에 의사들도 &#39;깜짝&#39; 25년 미스터리 해결한 AI 진단 / KNN</a></h3>
 <p>knn뉴스 #AI #클로드 수십 년 동안 원인을 찾지 못했던 고질병. 전문의들도 해결하지 못했던 이 문제를 인공지능이 단번에 짚어 ...</p>
-<div class="card-meta"><span class="source-badge">KNN NEWS</span> · <span class="view-count">442K views</span> · 2026-03-27</div>
+<div class="card-meta"><span class="source-badge">KNN NEWS</span> · <span class="view-count">460K views</span> · 2026-03-27</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=J1tvabPH9EY" target="_blank" rel="noopener">VAMOS PODER FALAR COM ANIMAIS!😱 #ciencia #inteligenciaartificial #ia</a></h3>
 <p>Cientistas já estão usando inteligência artificial pra decifrar os sons dos animais — e começaram logo com os golfinhos, que são ...</p>
-<div class="card-meta"><span class="source-badge">Onerdinha</span> · <span class="view-count">427K views</span> · 2026-03-23</div>
+<div class="card-meta"><span class="source-badge">Onerdinha</span> · <span class="view-count">428K views</span> · 2026-03-23</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=-ibxaS8NQGg" target="_blank" rel="noopener">¿Se ROBARON Digital Circus? 😨 Esto está pasando en Amazon…</a></h3>
 <p>Sabías que alguien podría haberse “robado” The Amazing Digital Circus? En Amazon aparecieron libros sospechosamente ...</p>
-<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">315K views</span> · 2026-03-24</div>
-</div>
-<div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=u5OBC3bVjwo" target="_blank" rel="noopener">$5K AI Spend on a $500K Engineer?! 🚨 You’re Doing It Wrong</a></h3>
-<p>Jensen Huang drops a bold take: if a $500K engineer is only spending $5K on AI tokens, that's a red flag. He says token usage ...</p>
-<div class="card-meta"><span class="source-badge">Future Vision</span> · <span class="view-count">289K views</span> · 2026-03-23</div>
+<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">317K views</span> · 2026-03-24</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=4Gmd5UTF4rk" target="_blank" rel="noopener">Anthropic&#39;s Generational Run, OpenAI Panics, AI Moats, Meta Loses Major Lawsuits</a></h3>
 <p>(0:00) Bestie intros!: Friedberg for Governor of California? (2:25) Anthropic's generational run (15:45) OpenAI: getting focused or ...</p>
-<div class="card-meta"><span class="source-badge">All-In Podcast</span> · <span class="view-count">281K views</span> · 2026-03-27</div>
+<div class="card-meta"><span class="source-badge">All-In Podcast</span> · <span class="view-count">307K views</span> · 2026-03-27</div>
+</div>
+<div class="news-item youtube">
+<h3><a href="https://www.youtube.com/watch?v=u5OBC3bVjwo" target="_blank" rel="noopener">$5K AI Spend on a $500K Engineer?! 🚨 You’re Doing It Wrong</a></h3>
+<p>Jensen Huang drops a bold take: if a $500K engineer is only spending $5K on AI tokens, that's a red flag. He says token usage ...</p>
+<div class="card-meta"><span class="source-badge">Future Vision</span> · <span class="view-count">292K views</span> · 2026-03-23</div>
 </div>
 </div>
 
 <div class="page-footer">
-Last updated: 2026-03-30 00:35 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
+Last updated: 2026-03-30 06:35 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
 </div>
 
 </div>
