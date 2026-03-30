@@ -16,30 +16,29 @@ date: 2026-03-31
 
 <p class="section-label">TODAY'S KEYWORDS</p>
 <div class="trend-tags">
-<span class="trend-tag hot">ChatGPT</span>
-<span class="trend-tag hot">Agent</span>
 <span class="trend-tag hot">Claude</span>
-<span class="trend-tag">Mistral</span>
+<span class="trend-tag hot">Agent</span>
+<span class="trend-tag hot">Apple</span>
 </div>
 
 <p class="section-label">HIGHLIGHTS</p>
 <div class="highlights-grid">
 <div class="highlight-card">
 <div class="highlight-badge">PICK UP</div>
+<h3><a href="https://techcrunch.com/2026/03/30/ai-boss-supervisor-us-quinnipiac-poll/" target="_blank" rel="noopener">15% of Americans say they’d be willing to work for an AI boss</a></h3>
+<p>Your human manager may soon be a chatbot. Across organizations, AI is being used to replace layers of management in what some are calling "The Great Flattening."</p>
+<div class="card-meta"><span class="source-badge">TechCrunch</span> · Mon, 30 Ma</div>
+</div>
+<div class="highlight-card">
+<div class="highlight-badge">PICK UP</div>
+<h3><a href="https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/" target="_blank" rel="noopener">As more Americans adopt AI tools, fewer say they can trust the results</a></h3>
+<p>AI adoption is rising in the U.S., but trust remains low, with most Americans concerned about transparency, regulation, and the technology’s broader societal impact, according to a new Quinnipiac...</p>
+<div class="card-meta"><span class="source-badge">TechCrunch</span> · Mon, 30 Ma</div>
+</div>
+<div class="highlight-card">
+<div class="highlight-badge">PICK UP</div>
 <h3><a href="https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/" target="_blank" rel="noopener">Mantis Biotech is making ‘digital twins’ of humans to help solve medicine’s data availability problem</a></h3>
 <p>Mantis takes disparate sources of data to make synthetic datasets that can be used to build so-called "digital twins" of the human body, representing anatomy, physiology and behavior.</p>
-<div class="card-meta"><span class="source-badge">TechCrunch</span> · Mon, 30 Ma</div>
-</div>
-<div class="highlight-card">
-<div class="highlight-badge">PICK UP</div>
-<h3><a href="https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/" target="_blank" rel="noopener">ScaleOps raises $130M to improve computing efficiency amid AI demand</a></h3>
-<p>ScaleOps just raised $130M to tackle GPU shortages and soaring AI cloud costs by automating infrastructure in real time.</p>
-<div class="card-meta"><span class="source-badge">TechCrunch</span> · Mon, 30 Ma</div>
-</div>
-<div class="highlight-card">
-<div class="highlight-badge">PICK UP</div>
-<h3><a href="https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/" target="_blank" rel="noopener">AI chip startup Rebellions raises $400 million at $2.3B valuation in pre-IPO round</a></h3>
-<p>The startup, which is planning to go public later this year, designs chips specifically for AI inference, another challenger to Nvidia's dominance.</p>
 <div class="card-meta"><span class="source-badge">TechCrunch</span> · Mon, 30 Ma</div>
 </div>
 </div>
@@ -47,8 +46,8 @@ date: 2026-03-31
 <p class="section-label">AI NEWS</p>
 <div class="news-grid">
 <div class="news-item">
-<h3><a href="https://techcrunch.com/2026/03/30/mistral-ai-raises-830m-in-debt-to-set-up-a-data-center-near-paris/" target="_blank" rel="noopener">Mistral AI raises $830M in debt to set up a data center near Paris</a></h3>
-<p>Mistral aims to start operating the data center by the second quarter of 2026.</p>
+<h3><a href="https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/" target="_blank" rel="noopener">ScaleOps raises $130M to improve computing efficiency amid AI demand</a></h3>
+<p>ScaleOps just raised $130M to tackle GPU shortages and soaring AI cloud costs by automating infrastructure in real time.</p>
 <div class="card-meta"><span class="source-badge">TechCrunch</span> · Mon, 30 Ma</div>
 </div>
 <div class="news-item">
@@ -86,62 +85,62 @@ date: 2026-03-31
 <p class="section-label">COMMUNITY</p>
 <div class="news-grid">
 <div class="news-item hn">
-<h3><a href="https://www.dhanishsemar.com/writing/bird-brains" target="_blank" rel="noopener">Parrots pack twice as many neurons as primate brains of the same mass</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 144 pts · <a href="https://news.ycombinator.com/item?id=47573887">71 comments</a></div>
+<h3><a href="https://claude.nagdy.me/" target="_blank" rel="noopener">Learn Claude Code by doing, not reading</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 23 pts · <a href="https://news.ycombinator.com/item?id=47579229">8 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://arxiv.org/abs/2603.26524" target="_blank" rel="noopener">Mathematical methods and human thought in the age of AI</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 125 pts · <a href="https://news.ycombinator.com/item?id=47572771">42 comments</a></div>
-</div>
-<div class="news-item hn">
-<h3><a href="https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/" target="_blank" rel="noopener">ChatGPT won't let you type until Cloudflare reads your React state</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 861 pts · <a href="https://news.ycombinator.com/item?id=47566865">563 comments</a></div>
+<h3><a href="https://www.dhanishsemar.com/writing/bird-brains" target="_blank" rel="noopener">Bird brains (2023)</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 270 pts · <a href="https://news.ycombinator.com/item?id=47573887">175 comments</a></div>
 </div>
 <div class="news-item hn">
 <h3><a href="https://github.com/coast-guard/coasts" target="_blank" rel="noopener">Show HN: Coasts – Containerized Hosts for Agents</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 8 pts · <a href="https://news.ycombinator.com/item?id=47575417">3 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 43 pts · <a href="https://news.ycombinator.com/item?id=47575417">11 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party" target="_blank" rel="noopener">FTC Action Against Match and OkCupid for Deceiving Users, Sharing Personal Data</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 26 pts · <a href="https://news.ycombinator.com/item?id=47575616">7 comments</a></div>
+<h3><a href="https://arkoinad.com/posts/apple_keychain_recovery.html" target="_blank" rel="noopener">Recover Apple Keychain</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 29 pts · <a href="https://news.ycombinator.com/item?id=47577120">8 comments</a></div>
+</div>
+<div class="news-item hn">
+<h3><a href="https://arxiv.org/abs/2603.26524" target="_blank" rel="noopener">Mathematical methods and human thought in the age of AI</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 180 pts · <a href="https://news.ycombinator.com/item?id=47572771">72 comments</a></div>
 </div>
 </div>
 
 <p class="section-label">TRENDING VIDEOS</p>
 <div class="news-grid">
 <div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=wF_nHrqm3mE" target="_blank" rel="noopener">Insaan ki Mehnat, AI ki Banao! | Sabziyon ki Cutai (Harvesting) 🚜✨</a></h3>
-<p>Doston, aaj ki is video mein hum dekhenge ki khet mein manually sabziyon ki harvesting kaise ki jaati hai. Lekin is video ki khaas ...</p>
-<div class="card-meta"><span class="source-badge">Nova AI</span> · <span class="view-count">884K views</span> · 2026-03-25</div>
-</div>
-<div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=zb32Vpw1Bf4" target="_blank" rel="noopener">This AI Interaction Got Weird Fast…</a></h3>
-<div class="card-meta"><span class="source-badge">The JRE Angle</span> · <span class="view-count">617K views</span> · 2026-03-25</div>
-</div>
-<div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=M6WprtNzuTs" target="_blank" rel="noopener">Does AI really save time? #carterpcs #tech #ai #chatgpt</a></h3>
-<p>Does AI really save time? #carterpcs #tech #ai #chatgpt.</p>
-<div class="card-meta"><span class="source-badge">CarterPCs</span> · <span class="view-count">611K views</span> · 2026-03-27</div>
-</div>
-<div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=XbELDY0gohg" target="_blank" rel="noopener">Ai, Show me Mehndi #shorts</a></h3>
-<p>In this short, I interact with an AI-generated character created for entertainment and creativity. All visuals and voices are ...</p>
-<div class="card-meta"><span class="source-badge">Krazy Boy</span> · <span class="view-count">549K views</span> · 2026-03-29</div>
-</div>
-<div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=NhUEAOrTnPc" target="_blank" rel="noopener">Perdóname Skibidi Toilet… esto es PEOR 💀🍉</a></h3>
 <p>La humanidad está en decadencia? En TikTok acaba de explotar una cuenta que rompe TODOS los récords… con una serie ...</p>
-<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">535K views</span> · 2026-03-24</div>
+<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">539K views</span> · 2026-03-24</div>
 </div>
 <div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=h2roKkFXXvU" target="_blank" rel="noopener">Videos That AI Can&#39;t Recreate</a></h3>
-<p>check out hxsain.com #shorts​</p>
-<div class="card-meta"><span class="source-badge">hxsain</span> · <span class="view-count">501K views</span> · 2026-03-27</div>
+<h3><a href="https://www.youtube.com/watch?v=-ibxaS8NQGg" target="_blank" rel="noopener">¿Se ROBARON Digital Circus? 😨 Esto está pasando en Amazon…</a></h3>
+<p>Sabías que alguien podría haberse “robado” The Amazing Digital Circus? En Amazon aparecieron libros sospechosamente ...</p>
+<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">320K views</span> · 2026-03-24</div>
+</div>
+<div class="news-item youtube">
+<h3><a href="https://www.youtube.com/watch?v=SKzZ3_G1tGs" target="_blank" rel="noopener">Новый Гарри Поттер — фанаты в шоке? #ai #кино #ии #искусственныйинтеллект</a></h3>
+<p>HBO показали новый кадр сериала по «Гарри Поттеру» — и фанаты уже разнесли его в сети. Я пошел дальше и показал ...</p>
+<div class="card-meta"><span class="source-badge">Imagion AI. Видео уровня кино</span> · <span class="view-count">232K views</span> · 2026-03-27</div>
+</div>
+<div class="news-item youtube">
+<h3><a href="https://www.youtube.com/watch?v=_nSy-lRWqLM" target="_blank" rel="noopener">This Is How AI Sees The Real World Using LiDAR and Sensors 🤯🤖</a></h3>
+<p>This is how AI actually “sees” the real world Instead of using eyes like humans, AI systems rely on advanced technologies like ...</p>
+<div class="card-meta"><span class="source-badge">Techie Sapien</span> · <span class="view-count">149K views</span> · 2026-03-24</div>
+</div>
+<div class="news-item youtube">
+<h3><a href="https://www.youtube.com/watch?v=7n2bm9lQOy8" target="_blank" rel="noopener">🚨 We Are Losing Control of AI | Expert Testimony #ai #airevolution #technews #artificialintelligence</a></h3>
+<p>Are we already too late? In this alarming expert testimony, Wyatt Tessari L'Allié reveals how recent advancements have created a ...</p>
+<div class="card-meta"><span class="source-badge">Lovnish Verma</span> · <span class="view-count">126K views</span> · 2026-03-25</div>
+</div>
+<div class="news-item youtube">
+<h3><a href="https://www.youtube.com/watch?v=Xb4QeD04ki0" target="_blank" rel="noopener">CEO Borong semua Tomat milik Nenek #ai #artificialintelligence</a></h3>
+<div class="card-meta"><span class="source-badge">CERITA VERSI AI</span> · <span class="view-count">107K views</span> · 2026-03-24</div>
 </div>
 </div>
 
 <div class="page-footer">
-Last updated: 2026-03-31 01:07 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
+Last updated: 2026-03-31 06:45 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
 </div>
 
 </div>
