@@ -17,11 +17,12 @@ date: 2026-03-30
 <p class="section-label">TODAY'S KEYWORDS</p>
 <div class="trend-tags">
 <span class="trend-tag hot">OpenAI</span>
-<span class="trend-tag hot">Claude</span>
 <span class="trend-tag hot">Anthropic</span>
-<span class="trend-tag">ChatGPT</span>
+<span class="trend-tag hot">ChatGPT</span>
+<span class="trend-tag">Claude</span>
 <span class="trend-tag">Sora</span>
 <span class="trend-tag">Meta</span>
+<span class="trend-tag">LLM</span>
 <span class="trend-tag">Agent</span>
 </div>
 
@@ -90,23 +91,23 @@ date: 2026-03-30
 <div class="news-grid">
 <div class="news-item hn">
 <h3><a href="https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/" target="_blank" rel="noopener">ChatGPT won't let you type until Cloudflare reads your React state</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 430 pts · <a href="https://news.ycombinator.com/item?id=47566865">308 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 659 pts · <a href="https://news.ycombinator.com/item?id=47566865">423 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://github.com/anthropics/claude-code/issues/40710" target="_blank" rel="noopener">Claude Code runs Git reset –hard origin/main against project repo every 10 mins</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 219 pts · <a href="https://news.ycombinator.com/item?id=47567969">148 comments</a></div>
+<h3><a href="https://dani2442.github.io/posts/continuous-rl/" target="_blank" rel="noopener">Hamilton-Jacobi-Bellman Equation: Reinforcement Learning and Diffusion Models</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 37 pts · <a href="https://news.ycombinator.com/item?id=47571495">9 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/" target="_blank" rel="noopener">Coding Agents Could Make Free Software Matter Again</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 138 pts · <a href="https://news.ycombinator.com/item?id=47568028">124 comments</a></div>
+<h3><a href="https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/" target="_blank" rel="noopener">Coding agents could make free software matter again</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 189 pts · <a href="https://news.ycombinator.com/item?id=47568028">181 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://www.jrkyushu.co.jp/english/train/index.html" target="_blank" rel="noopener">Kyushu Railway Company Train Varieties</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 72 pts · <a href="https://news.ycombinator.com/item?id=47566140">9 comments</a></div>
+<h3><a href="https://apnews.com/article/airports-shutdown-long-lines-train-travel-amtrak-e4d8ea591b3b036142c2bf2dee7dff5a" target="_blank" rel="noopener">Midnight train from GA: A view of America from the tracks as airports struggle</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 100 pts · <a href="https://news.ycombinator.com/item?id=47566653">80 comments</a></div>
 </div>
 <div class="news-item hn">
-<h3><a href="https://github.com/austin-weeks/miasma" target="_blank" rel="noopener">Miasma: A tool to trap AI web scrapers in an endless poison pit</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 304 pts · <a href="https://news.ycombinator.com/item?id=47561819">220 comments</a></div>
+<h3><a href="https://www.lesswrong.com/posts/BJ4pnropWdnzzgeJc/i-am-definitely-missing-the-pre-ai-writing-era" target="_blank" rel="noopener">I am definitely missing the pre-AI writing era</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 60 pts · <a href="https://news.ycombinator.com/item?id=47571279">40 comments</a></div>
 </div>
 </div>
 
@@ -115,37 +116,37 @@ date: 2026-03-30
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=NhUEAOrTnPc" target="_blank" rel="noopener">Perdóname Skibidi Toilet… esto es PEOR 💀🍉</a></h3>
 <p>La humanidad está en decadencia? En TikTok acaba de explotar una cuenta que rompe TODOS los récords… con una serie ...</p>
-<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">533K views</span> · 2026-03-24</div>
+<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">535K views</span> · 2026-03-24</div>
+</div>
+<div class="news-item youtube">
+<h3><a href="https://www.youtube.com/watch?v=W_lqCSRdZnc" target="_blank" rel="noopener">화타급 진단에 의사들도 &#39;깜짝&#39; 25년 미스터리 해결한 AI 진단 / KNN</a></h3>
+<p>knn뉴스 #AI #클로드 수십 년 동안 원인을 찾지 못했던 고질병. 전문의들도 해결하지 못했던 이 문제를 인공지능이 단번에 짚어 ...</p>
+<div class="card-meta"><span class="source-badge">KNN NEWS</span> · <span class="view-count">475K views</span> · 2026-03-27</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=4Gmd5UTF4rk" target="_blank" rel="noopener">Anthropic&#39;s Generational Run, OpenAI Panics, AI Moats, Meta Loses Major Lawsuits</a></h3>
 <p>(0:00) Bestie intros!: Friedberg for Governor of California? (2:25) Anthropic's generational run (15:45) OpenAI: getting focused or ...</p>
-<div class="card-meta"><span class="source-badge">All-In Podcast</span> · <span class="view-count">330K views</span> · 2026-03-27</div>
+<div class="card-meta"><span class="source-badge">All-In Podcast</span> · <span class="view-count">338K views</span> · 2026-03-27</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=u5OBC3bVjwo" target="_blank" rel="noopener">$5K AI Spend on a $500K Engineer?! 🚨 You’re Doing It Wrong</a></h3>
 <p>Jensen Huang drops a bold take: if a $500K engineer is only spending $5K on AI tokens, that's a red flag. He says token usage ...</p>
-<div class="card-meta"><span class="source-badge">Future Vision</span> · <span class="view-count">295K views</span> · 2026-03-23</div>
+<div class="card-meta"><span class="source-badge">Future Vision</span> · <span class="view-count">296K views</span> · 2026-03-23</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=SKzZ3_G1tGs" target="_blank" rel="noopener">Новый Гарри Поттер — фанаты в шоке? #ai #кино #ии #искусственныйинтеллект</a></h3>
 <p>HBO показали новый кадр сериала по «Гарри Поттеру» — и фанаты уже разнесли его в сети. Я пошел дальше и показал ...</p>
-<div class="card-meta"><span class="source-badge">Imagion AI. Видео уровня кино</span> · <span class="view-count">210K views</span> · 2026-03-27</div>
+<div class="card-meta"><span class="source-badge">Imagion AI. Видео уровня кино</span> · <span class="view-count">217K views</span> · 2026-03-27</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=KXv3KGIB14Y" target="_blank" rel="noopener">Anthropic ROASTS OpenAI in New Ad🔥 #artificialintelligence #ai #openai #anthropic #claudeai #chatgpt</a></h3>
 <p>Anthropic launched a Super Bowl ad campaign mocking AI chatbot advertising with the tagline “Ads are coming to AI. But not to ...</p>
-<div class="card-meta"><span class="source-badge">Lovnish Verma</span> · <span class="view-count">158K views</span> · 2026-03-26</div>
-</div>
-<div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=7n2bm9lQOy8" target="_blank" rel="noopener">🚨 We Are Losing Control of AI | Expert Testimony #ai #airevolution #technews #artificialintelligence</a></h3>
-<p>Are we already too late? In this alarming expert testimony, Wyatt Tessari L'Allié reveals how recent advancements have created a ...</p>
-<div class="card-meta"><span class="source-badge">Lovnish Verma</span> · <span class="view-count">121K views</span> · 2026-03-25</div>
+<div class="card-meta"><span class="source-badge">Lovnish Verma</span> · <span class="view-count">159K views</span> · 2026-03-26</div>
 </div>
 </div>
 
 <div class="page-footer">
-Last updated: 2026-03-30 14:27 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
+Last updated: 2026-03-30 19:20 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
 </div>
 
 </div>
