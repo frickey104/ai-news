@@ -17,16 +17,28 @@ date: 2026-03-31
 <p class="section-label">TODAY'S KEYWORDS</p>
 <div class="trend-tags">
 <span class="trend-tag hot">Claude</span>
-<span class="trend-tag hot">Agent</span>
-<span class="trend-tag hot">Apple</span>
+<span class="trend-tag hot">OpenAI</span>
+<span class="trend-tag hot">Anthropic</span>
+<span class="trend-tag">LLM</span>
+<span class="trend-tag">Agent</span>
+<span class="trend-tag">ChatGPT</span>
+<span class="trend-tag">Llama</span>
+<span class="trend-tag">Meta</span>
+<span class="trend-tag">Apple</span>
 </div>
 
 <p class="section-label">HIGHLIGHTS</p>
 <div class="highlights-grid">
 <div class="highlight-card">
 <div class="highlight-badge">PICK UP</div>
-<h3><a href="https://techcrunch.com/2026/03/30/ai-boss-supervisor-us-quinnipiac-poll/" target="_blank" rel="noopener">15% of Americans say they’d be willing to work for an AI boss</a></h3>
-<p>Your human manager may soon be a chatbot. Across organizations, AI is being used to replace layers of management in what some are calling "The Great Flattening."</p>
+<h3><a href="https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/" target="_blank" rel="noopener">15% of Americans say they’d be willing to work for an AI boss, according to new poll</a></h3>
+<p>According to a Quinnipiac University poll, 15% of Americans say they'd be willing to have a job where their direct supervisor was an AI program that assigned tasks and set schedules.</p>
+<div class="card-meta"><span class="source-badge">TechCrunch</span> · Mon, 30 Ma</div>
+</div>
+<div class="highlight-card">
+<div class="highlight-badge">PICK UP</div>
+<h3><a href="https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/" target="_blank" rel="noopener">Popular AI gateway startup LiteLLM ditches controversial startup Delve</a></h3>
+<p>LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrific credential-stealing malware last week.</p>
 <div class="card-meta"><span class="source-badge">TechCrunch</span> · Mon, 30 Ma</div>
 </div>
 <div class="highlight-card">
@@ -35,19 +47,13 @@ date: 2026-03-31
 <p>AI adoption is rising in the U.S., but trust remains low, with most Americans concerned about transparency, regulation, and the technology’s broader societal impact, according to a new Quinnipiac...</p>
 <div class="card-meta"><span class="source-badge">TechCrunch</span> · Mon, 30 Ma</div>
 </div>
-<div class="highlight-card">
-<div class="highlight-badge">PICK UP</div>
-<h3><a href="https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/" target="_blank" rel="noopener">Mantis Biotech is making ‘digital twins’ of humans to help solve medicine’s data availability problem</a></h3>
-<p>Mantis takes disparate sources of data to make synthetic datasets that can be used to build so-called "digital twins" of the human body, representing anatomy, physiology and behavior.</p>
-<div class="card-meta"><span class="source-badge">TechCrunch</span> · Mon, 30 Ma</div>
-</div>
 </div>
 
 <p class="section-label">AI NEWS</p>
 <div class="news-grid">
 <div class="news-item">
-<h3><a href="https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/" target="_blank" rel="noopener">ScaleOps raises $130M to improve computing efficiency amid AI demand</a></h3>
-<p>ScaleOps just raised $130M to tackle GPU shortages and soaring AI cloud costs by automating infrastructure in real time.</p>
+<h3><a href="https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/" target="_blank" rel="noopener">Mantis Biotech is making ‘digital twins’ of humans to help solve medicine’s data availability problem</a></h3>
+<p>Mantis takes disparate sources of data to make synthetic datasets that can be used to build so-called "digital twins" of the human body, representing anatomy, physiology and behavior.</p>
 <div class="card-meta"><span class="source-badge">TechCrunch</span> · Mon, 30 Ma</div>
 </div>
 <div class="news-item">
@@ -85,24 +91,24 @@ date: 2026-03-31
 <p class="section-label">COMMUNITY</p>
 <div class="news-grid">
 <div class="news-item hn">
+<h3><a href="https://github.com/drona23/claude-token-efficient" target="_blank" rel="noopener">Universal Claude.md – cut Claude output tokens</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 205 pts · <a href="https://news.ycombinator.com/item?id=47581701">75 comments</a></div>
+</div>
+<div class="news-item hn">
+<h3><a href="https://ollama.com/blog/mlx" target="_blank" rel="noopener">Ollama is now powered by MLX on Apple Silicon in preview</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 49 pts · <a href="https://news.ycombinator.com/item?id=47582482">11 comments</a></div>
+</div>
+<div class="news-item hn">
+<h3><a href="https://github.com/concensure/Semantic" target="_blank" rel="noopener">Semantic – Reducing LLM "Agent Loops" by 27.78% via AST Logic Graphs</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 27 pts · <a href="https://news.ycombinator.com/item?id=47582545">3 comments</a></div>
+</div>
+<div class="news-item hn">
+<h3><a href="https://www.youtube.com/watch?v=JJEyffSdBsk" target="_blank" rel="noopener">Clojure: The Documentary, official trailer [video]</a></h3>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 89 pts · <a href="https://news.ycombinator.com/item?id=47532891">4 comments</a></div>
+</div>
+<div class="news-item hn">
 <h3><a href="https://claude.nagdy.me/" target="_blank" rel="noopener">Learn Claude Code by doing, not reading</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 23 pts · <a href="https://news.ycombinator.com/item?id=47579229">8 comments</a></div>
-</div>
-<div class="news-item hn">
-<h3><a href="https://www.dhanishsemar.com/writing/bird-brains" target="_blank" rel="noopener">Bird brains (2023)</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 270 pts · <a href="https://news.ycombinator.com/item?id=47573887">175 comments</a></div>
-</div>
-<div class="news-item hn">
-<h3><a href="https://github.com/coast-guard/coasts" target="_blank" rel="noopener">Show HN: Coasts – Containerized Hosts for Agents</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 43 pts · <a href="https://news.ycombinator.com/item?id=47575417">11 comments</a></div>
-</div>
-<div class="news-item hn">
-<h3><a href="https://arkoinad.com/posts/apple_keychain_recovery.html" target="_blank" rel="noopener">Recover Apple Keychain</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 29 pts · <a href="https://news.ycombinator.com/item?id=47577120">8 comments</a></div>
-</div>
-<div class="news-item hn">
-<h3><a href="https://arxiv.org/abs/2603.26524" target="_blank" rel="noopener">Mathematical methods and human thought in the age of AI</a></h3>
-<div class="card-meta"><span class="source-badge">HackerNews</span> · 180 pts · <a href="https://news.ycombinator.com/item?id=47572771">72 comments</a></div>
+<div class="card-meta"><span class="source-badge">HackerNews</span> · 211 pts · <a href="https://news.ycombinator.com/item?id=47579229">97 comments</a></div>
 </div>
 </div>
 
@@ -111,36 +117,37 @@ date: 2026-03-31
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=NhUEAOrTnPc" target="_blank" rel="noopener">Perdóname Skibidi Toilet… esto es PEOR 💀🍉</a></h3>
 <p>La humanidad está en decadencia? En TikTok acaba de explotar una cuenta que rompe TODOS los récords… con una serie ...</p>
-<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">539K views</span> · 2026-03-24</div>
+<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">543K views</span> · 2026-03-24</div>
+</div>
+<div class="news-item youtube">
+<h3><a href="https://www.youtube.com/watch?v=4Gmd5UTF4rk" target="_blank" rel="noopener">Anthropic&#39;s Generational Run, OpenAI Panics, AI Moats, Meta Loses Major Lawsuits</a></h3>
+<p>(0:00) Bestie intros!: Friedberg for Governor of California? (2:25) Anthropic's generational run (15:45) OpenAI: getting focused or ...</p>
+<div class="card-meta"><span class="source-badge">All-In Podcast</span> · <span class="view-count">373K views</span> · 2026-03-27</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=-ibxaS8NQGg" target="_blank" rel="noopener">¿Se ROBARON Digital Circus? 😨 Esto está pasando en Amazon…</a></h3>
 <p>Sabías que alguien podría haberse “robado” The Amazing Digital Circus? En Amazon aparecieron libros sospechosamente ...</p>
-<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">320K views</span> · 2026-03-24</div>
+<div class="card-meta"><span class="source-badge">Candel+</span> · <span class="view-count">321K views</span> · 2026-03-24</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=SKzZ3_G1tGs" target="_blank" rel="noopener">Новый Гарри Поттер — фанаты в шоке? #ai #кино #ии #искусственныйинтеллект</a></h3>
 <p>HBO показали новый кадр сериала по «Гарри Поттеру» — и фанаты уже разнесли его в сети. Я пошел дальше и показал ...</p>
-<div class="card-meta"><span class="source-badge">Imagion AI. Видео уровня кино</span> · <span class="view-count">232K views</span> · 2026-03-27</div>
+<div class="card-meta"><span class="source-badge">Imagion AI. Видео уровня кино</span> · <span class="view-count">235K views</span> · 2026-03-27</div>
 </div>
 <div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=_nSy-lRWqLM" target="_blank" rel="noopener">This Is How AI Sees The Real World Using LiDAR and Sensors 🤯🤖</a></h3>
-<p>This is how AI actually “sees” the real world Instead of using eyes like humans, AI systems rely on advanced technologies like ...</p>
-<div class="card-meta"><span class="source-badge">Techie Sapien</span> · <span class="view-count">149K views</span> · 2026-03-24</div>
+<h3><a href="https://www.youtube.com/watch?v=KXv3KGIB14Y" target="_blank" rel="noopener">Anthropic ROASTS OpenAI in New Ad🔥 #artificialintelligence #ai #openai #anthropic #claudeai #chatgpt</a></h3>
+<p>Anthropic launched a Super Bowl ad campaign mocking AI chatbot advertising with the tagline “Ads are coming to AI. But not to ...</p>
+<div class="card-meta"><span class="source-badge">Lovnish Verma</span> · <span class="view-count">162K views</span> · 2026-03-26</div>
 </div>
 <div class="news-item youtube">
 <h3><a href="https://www.youtube.com/watch?v=7n2bm9lQOy8" target="_blank" rel="noopener">🚨 We Are Losing Control of AI | Expert Testimony #ai #airevolution #technews #artificialintelligence</a></h3>
 <p>Are we already too late? In this alarming expert testimony, Wyatt Tessari L'Allié reveals how recent advancements have created a ...</p>
-<div class="card-meta"><span class="source-badge">Lovnish Verma</span> · <span class="view-count">126K views</span> · 2026-03-25</div>
-</div>
-<div class="news-item youtube">
-<h3><a href="https://www.youtube.com/watch?v=Xb4QeD04ki0" target="_blank" rel="noopener">CEO Borong semua Tomat milik Nenek #ai #artificialintelligence</a></h3>
-<div class="card-meta"><span class="source-badge">CERITA VERSI AI</span> · <span class="view-count">107K views</span> · 2026-03-24</div>
+<div class="card-meta"><span class="source-badge">Lovnish Verma</span> · <span class="view-count">128K views</span> · 2026-03-25</div>
 </div>
 </div>
 
 <div class="page-footer">
-Last updated: 2026-03-31 06:45 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
+Last updated: 2026-03-31 14:12 JST &nbsp;|&nbsp; <a href="/daily/">Archive</a>
 </div>
 
 </div>
